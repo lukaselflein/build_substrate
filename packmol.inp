@@ -1,0 +1,37 @@
+# Change the maximum number of optimization loops, default 20
+nloop 20
+# Change the maximum number of Gencan iterations per loop. default 50
+maxit 50
+
+tolerance 2.0
+
+# Coordinate file types will be in pdb format (keyword not required for
+# pdb file format, but required for tinker, xyz or moldy).
+
+filetype pdb
+
+output output_packmol.pdb
+
+# substrate
+structure test.pdb
+  number 1
+  resnumbers 2
+  #center 
+  # measures of substrate: 34.578   34.936   14.116
+  fixed  0. 0. -14.116 0. 0. 0.
+end structure
+
+structure 1_SDS.pdb 
+  number 1
+  chain A
+  resnumbers 2
+  fixed 17.52 18.94 -7. 0. 0. 0.
+end structure
+
+# point paricles, generally ions
+structure 1_NA.pdb 
+  number 1
+  chain A
+  resnumbers 2
+  inside box 0. 0. 0. 34.578 34.936 5.0
+end structure
