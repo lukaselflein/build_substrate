@@ -1,0 +1,7 @@
+TITLE     Built with Packmol
+REMARK    THIS IS A SIMULATION BOX
+CRYST1   34.578   34.936   60.000  90.00  90.00  90.00 P 1           1
+MODEL        1
+ATOM      1  NA   NA     1      34.580   0.000  14.120  1.00  0.00            
+TER
+ENDMDL

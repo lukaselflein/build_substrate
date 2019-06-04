@@ -1,0 +1,2464 @@
+;
+;	File '1_SDS_on_AU_111_12x7x2.top' was generated
+;	By user: testuser (1000)
+;	On host: jlh-bwcloud-15mar19
+;	At date: Thu May 23 18:32:40 2019
+;
+;	This is a standalone topology file
+;
+;	Created by:
+;	                    :-) GROMACS - gmx pdb2gmx, 2018.1 (-:
+;	
+;	Executable:   /opt/apps/gromacs/2018.1-gnu-7.3-openmpi-2.1.1/bin/gmx
+;	Data prefix:  /opt/apps/gromacs/2018.1-gnu-7.3-openmpi-2.1.1
+;	Working dir:  /mnt/dat/work/testuser/adsorption/sandbox/20190523_sample_system
+;	Command line:
+;	  gmx pdb2gmx -f 1_SDS_on_AU_111_12x7x2.pdb -o 1_SDS_on_AU_111_12x7x2.gro -p 1_SDS_on_AU_111_12x7x2.top -i 1_SDS_on_AU_111_12x7x2.posre.itp -ff charmm36 -water tip3p -v
+;	Force field data was read from:
+;	/opt/apps/gromacs-top/jlh-2018.1/share/gromacs/top
+;
+;	Note:
+;	This might be a non-standard force field location. When you use this topology, the
+;	force field must either be present in the current directory, or the location
+;	specified in the GMXLIB path variable or with the 'include' mdp file option.
+;
+
+; Include forcefield parameters
+#include "charmm36.ff/forcefield.itp"
+
+[ moleculetype ]
+; Name            nrexcl
+Surface             3
+
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr     charge       mass  typeB    chargeB      massB
+; residue   1 SURF rtp SURF q  0.0
+     1         AU      1   SURF     Au      1          0    196.967   ; qtot 0
+; residue   2 SURF rtp SURF q  0.0
+     2         AU      2   SURF     Au      2          0    196.967   ; qtot 0
+; residue   3 SURF rtp SURF q  0.0
+     3         AU      3   SURF     Au      3          0    196.967   ; qtot 0
+; residue   4 SURF rtp SURF q  0.0
+     4         AU      4   SURF     Au      4          0    196.967   ; qtot 0
+; residue   5 SURF rtp SURF q  0.0
+     5         AU      5   SURF     Au      5          0    196.967   ; qtot 0
+; residue   6 SURF rtp SURF q  0.0
+     6         AU      6   SURF     Au      6          0    196.967   ; qtot 0
+; residue   7 SURF rtp SURF q  0.0
+     7         AU      7   SURF     Au      7          0    196.967   ; qtot 0
+; residue   8 SURF rtp SURF q  0.0
+     8         AU      8   SURF     Au      8          0    196.967   ; qtot 0
+; residue   9 SURF rtp SURF q  0.0
+     9         AU      9   SURF     Au      9          0    196.967   ; qtot 0
+; residue  10 SURF rtp SURF q  0.0
+    10         AU     10   SURF     Au     10          0    196.967   ; qtot 0
+; residue  11 SURF rtp SURF q  0.0
+    11         AU     11   SURF     Au     11          0    196.967   ; qtot 0
+; residue  12 SURF rtp SURF q  0.0
+    12         AU     12   SURF     Au     12          0    196.967   ; qtot 0
+; residue  13 SURF rtp SURF q  0.0
+    13         AU     13   SURF     Au     13          0    196.967   ; qtot 0
+; residue  14 SURF rtp SURF q  0.0
+    14         AU     14   SURF     Au     14          0    196.967   ; qtot 0
+; residue  15 SURF rtp SURF q  0.0
+    15         AU     15   SURF     Au     15          0    196.967   ; qtot 0
+; residue  16 SURF rtp SURF q  0.0
+    16         AU     16   SURF     Au     16          0    196.967   ; qtot 0
+; residue  17 SURF rtp SURF q  0.0
+    17         AU     17   SURF     Au     17          0    196.967   ; qtot 0
+; residue  18 SURF rtp SURF q  0.0
+    18         AU     18   SURF     Au     18          0    196.967   ; qtot 0
+; residue  19 SURF rtp SURF q  0.0
+    19         AU     19   SURF     Au     19          0    196.967   ; qtot 0
+; residue  20 SURF rtp SURF q  0.0
+    20         AU     20   SURF     Au     20          0    196.967   ; qtot 0
+; residue  21 SURF rtp SURF q  0.0
+    21         AU     21   SURF     Au     21          0    196.967   ; qtot 0
+; residue  22 SURF rtp SURF q  0.0
+    22         AU     22   SURF     Au     22          0    196.967   ; qtot 0
+; residue  23 SURF rtp SURF q  0.0
+    23         AU     23   SURF     Au     23          0    196.967   ; qtot 0
+; residue  24 SURF rtp SURF q  0.0
+    24         AU     24   SURF     Au     24          0    196.967   ; qtot 0
+; residue  25 SURF rtp SURF q  0.0
+    25         AU     25   SURF     Au     25          0    196.967   ; qtot 0
+; residue  26 SURF rtp SURF q  0.0
+    26         AU     26   SURF     Au     26          0    196.967   ; qtot 0
+; residue  27 SURF rtp SURF q  0.0
+    27         AU     27   SURF     Au     27          0    196.967   ; qtot 0
+; residue  28 SURF rtp SURF q  0.0
+    28         AU     28   SURF     Au     28          0    196.967   ; qtot 0
+; residue  29 SURF rtp SURF q  0.0
+    29         AU     29   SURF     Au     29          0    196.967   ; qtot 0
+; residue  30 SURF rtp SURF q  0.0
+    30         AU     30   SURF     Au     30          0    196.967   ; qtot 0
+; residue  31 SURF rtp SURF q  0.0
+    31         AU     31   SURF     Au     31          0    196.967   ; qtot 0
+; residue  32 SURF rtp SURF q  0.0
+    32         AU     32   SURF     Au     32          0    196.967   ; qtot 0
+; residue  33 SURF rtp SURF q  0.0
+    33         AU     33   SURF     Au     33          0    196.967   ; qtot 0
+; residue  34 SURF rtp SURF q  0.0
+    34         AU     34   SURF     Au     34          0    196.967   ; qtot 0
+; residue  35 SURF rtp SURF q  0.0
+    35         AU     35   SURF     Au     35          0    196.967   ; qtot 0
+; residue  36 SURF rtp SURF q  0.0
+    36         AU     36   SURF     Au     36          0    196.967   ; qtot 0
+; residue  37 SURF rtp SURF q  0.0
+    37         AU     37   SURF     Au     37          0    196.967   ; qtot 0
+; residue  38 SURF rtp SURF q  0.0
+    38         AU     38   SURF     Au     38          0    196.967   ; qtot 0
+; residue  39 SURF rtp SURF q  0.0
+    39         AU     39   SURF     Au     39          0    196.967   ; qtot 0
+; residue  40 SURF rtp SURF q  0.0
+    40         AU     40   SURF     Au     40          0    196.967   ; qtot 0
+; residue  41 SURF rtp SURF q  0.0
+    41         AU     41   SURF     Au     41          0    196.967   ; qtot 0
+; residue  42 SURF rtp SURF q  0.0
+    42         AU     42   SURF     Au     42          0    196.967   ; qtot 0
+; residue  43 SURF rtp SURF q  0.0
+    43         AU     43   SURF     Au     43          0    196.967   ; qtot 0
+; residue  44 SURF rtp SURF q  0.0
+    44         AU     44   SURF     Au     44          0    196.967   ; qtot 0
+; residue  45 SURF rtp SURF q  0.0
+    45         AU     45   SURF     Au     45          0    196.967   ; qtot 0
+; residue  46 SURF rtp SURF q  0.0
+    46         AU     46   SURF     Au     46          0    196.967   ; qtot 0
+; residue  47 SURF rtp SURF q  0.0
+    47         AU     47   SURF     Au     47          0    196.967   ; qtot 0
+; residue  48 SURF rtp SURF q  0.0
+    48         AU     48   SURF     Au     48          0    196.967   ; qtot 0
+; residue  49 SURF rtp SURF q  0.0
+    49         AU     49   SURF     Au     49          0    196.967   ; qtot 0
+; residue  50 SURF rtp SURF q  0.0
+    50         AU     50   SURF     Au     50          0    196.967   ; qtot 0
+; residue  51 SURF rtp SURF q  0.0
+    51         AU     51   SURF     Au     51          0    196.967   ; qtot 0
+; residue  52 SURF rtp SURF q  0.0
+    52         AU     52   SURF     Au     52          0    196.967   ; qtot 0
+; residue  53 SURF rtp SURF q  0.0
+    53         AU     53   SURF     Au     53          0    196.967   ; qtot 0
+; residue  54 SURF rtp SURF q  0.0
+    54         AU     54   SURF     Au     54          0    196.967   ; qtot 0
+; residue  55 SURF rtp SURF q  0.0
+    55         AU     55   SURF     Au     55          0    196.967   ; qtot 0
+; residue  56 SURF rtp SURF q  0.0
+    56         AU     56   SURF     Au     56          0    196.967   ; qtot 0
+; residue  57 SURF rtp SURF q  0.0
+    57         AU     57   SURF     Au     57          0    196.967   ; qtot 0
+; residue  58 SURF rtp SURF q  0.0
+    58         AU     58   SURF     Au     58          0    196.967   ; qtot 0
+; residue  59 SURF rtp SURF q  0.0
+    59         AU     59   SURF     Au     59          0    196.967   ; qtot 0
+; residue  60 SURF rtp SURF q  0.0
+    60         AU     60   SURF     Au     60          0    196.967   ; qtot 0
+; residue  61 SURF rtp SURF q  0.0
+    61         AU     61   SURF     Au     61          0    196.967   ; qtot 0
+; residue  62 SURF rtp SURF q  0.0
+    62         AU     62   SURF     Au     62          0    196.967   ; qtot 0
+; residue  63 SURF rtp SURF q  0.0
+    63         AU     63   SURF     Au     63          0    196.967   ; qtot 0
+; residue  64 SURF rtp SURF q  0.0
+    64         AU     64   SURF     Au     64          0    196.967   ; qtot 0
+; residue  65 SURF rtp SURF q  0.0
+    65         AU     65   SURF     Au     65          0    196.967   ; qtot 0
+; residue  66 SURF rtp SURF q  0.0
+    66         AU     66   SURF     Au     66          0    196.967   ; qtot 0
+; residue  67 SURF rtp SURF q  0.0
+    67         AU     67   SURF     Au     67          0    196.967   ; qtot 0
+; residue  68 SURF rtp SURF q  0.0
+    68         AU     68   SURF     Au     68          0    196.967   ; qtot 0
+; residue  69 SURF rtp SURF q  0.0
+    69         AU     69   SURF     Au     69          0    196.967   ; qtot 0
+; residue  70 SURF rtp SURF q  0.0
+    70         AU     70   SURF     Au     70          0    196.967   ; qtot 0
+; residue  71 SURF rtp SURF q  0.0
+    71         AU     71   SURF     Au     71          0    196.967   ; qtot 0
+; residue  72 SURF rtp SURF q  0.0
+    72         AU     72   SURF     Au     72          0    196.967   ; qtot 0
+; residue  73 SURF rtp SURF q  0.0
+    73         AU     73   SURF     Au     73          0    196.967   ; qtot 0
+; residue  74 SURF rtp SURF q  0.0
+    74         AU     74   SURF     Au     74          0    196.967   ; qtot 0
+; residue  75 SURF rtp SURF q  0.0
+    75         AU     75   SURF     Au     75          0    196.967   ; qtot 0
+; residue  76 SURF rtp SURF q  0.0
+    76         AU     76   SURF     Au     76          0    196.967   ; qtot 0
+; residue  77 SURF rtp SURF q  0.0
+    77         AU     77   SURF     Au     77          0    196.967   ; qtot 0
+; residue  78 SURF rtp SURF q  0.0
+    78         AU     78   SURF     Au     78          0    196.967   ; qtot 0
+; residue  79 SURF rtp SURF q  0.0
+    79         AU     79   SURF     Au     79          0    196.967   ; qtot 0
+; residue  80 SURF rtp SURF q  0.0
+    80         AU     80   SURF     Au     80          0    196.967   ; qtot 0
+; residue  81 SURF rtp SURF q  0.0
+    81         AU     81   SURF     Au     81          0    196.967   ; qtot 0
+; residue  82 SURF rtp SURF q  0.0
+    82         AU     82   SURF     Au     82          0    196.967   ; qtot 0
+; residue  83 SURF rtp SURF q  0.0
+    83         AU     83   SURF     Au     83          0    196.967   ; qtot 0
+; residue  84 SURF rtp SURF q  0.0
+    84         AU     84   SURF     Au     84          0    196.967   ; qtot 0
+; residue  85 SURF rtp SURF q  0.0
+    85         AU     85   SURF     Au     85          0    196.967   ; qtot 0
+; residue  86 SURF rtp SURF q  0.0
+    86         AU     86   SURF     Au     86          0    196.967   ; qtot 0
+; residue  87 SURF rtp SURF q  0.0
+    87         AU     87   SURF     Au     87          0    196.967   ; qtot 0
+; residue  88 SURF rtp SURF q  0.0
+    88         AU     88   SURF     Au     88          0    196.967   ; qtot 0
+; residue  89 SURF rtp SURF q  0.0
+    89         AU     89   SURF     Au     89          0    196.967   ; qtot 0
+; residue  90 SURF rtp SURF q  0.0
+    90         AU     90   SURF     Au     90          0    196.967   ; qtot 0
+; residue  91 SURF rtp SURF q  0.0
+    91         AU     91   SURF     Au     91          0    196.967   ; qtot 0
+; residue  92 SURF rtp SURF q  0.0
+    92         AU     92   SURF     Au     92          0    196.967   ; qtot 0
+; residue  93 SURF rtp SURF q  0.0
+    93         AU     93   SURF     Au     93          0    196.967   ; qtot 0
+; residue  94 SURF rtp SURF q  0.0
+    94         AU     94   SURF     Au     94          0    196.967   ; qtot 0
+; residue  95 SURF rtp SURF q  0.0
+    95         AU     95   SURF     Au     95          0    196.967   ; qtot 0
+; residue  96 SURF rtp SURF q  0.0
+    96         AU     96   SURF     Au     96          0    196.967   ; qtot 0
+; residue  97 SURF rtp SURF q  0.0
+    97         AU     97   SURF     Au     97          0    196.967   ; qtot 0
+; residue  98 SURF rtp SURF q  0.0
+    98         AU     98   SURF     Au     98          0    196.967   ; qtot 0
+; residue  99 SURF rtp SURF q  0.0
+    99         AU     99   SURF     Au     99          0    196.967   ; qtot 0
+; residue 100 SURF rtp SURF q  0.0
+   100         AU    100   SURF     Au    100          0    196.967   ; qtot 0
+; residue 101 SURF rtp SURF q  0.0
+   101         AU    101   SURF     Au    101          0    196.967   ; qtot 0
+; residue 102 SURF rtp SURF q  0.0
+   102         AU    102   SURF     Au    102          0    196.967   ; qtot 0
+; residue 103 SURF rtp SURF q  0.0
+   103         AU    103   SURF     Au    103          0    196.967   ; qtot 0
+; residue 104 SURF rtp SURF q  0.0
+   104         AU    104   SURF     Au    104          0    196.967   ; qtot 0
+; residue 105 SURF rtp SURF q  0.0
+   105         AU    105   SURF     Au    105          0    196.967   ; qtot 0
+; residue 106 SURF rtp SURF q  0.0
+   106         AU    106   SURF     Au    106          0    196.967   ; qtot 0
+; residue 107 SURF rtp SURF q  0.0
+   107         AU    107   SURF     Au    107          0    196.967   ; qtot 0
+; residue 108 SURF rtp SURF q  0.0
+   108         AU    108   SURF     Au    108          0    196.967   ; qtot 0
+; residue 109 SURF rtp SURF q  0.0
+   109         AU    109   SURF     Au    109          0    196.967   ; qtot 0
+; residue 110 SURF rtp SURF q  0.0
+   110         AU    110   SURF     Au    110          0    196.967   ; qtot 0
+; residue 111 SURF rtp SURF q  0.0
+   111         AU    111   SURF     Au    111          0    196.967   ; qtot 0
+; residue 112 SURF rtp SURF q  0.0
+   112         AU    112   SURF     Au    112          0    196.967   ; qtot 0
+; residue 113 SURF rtp SURF q  0.0
+   113         AU    113   SURF     Au    113          0    196.967   ; qtot 0
+; residue 114 SURF rtp SURF q  0.0
+   114         AU    114   SURF     Au    114          0    196.967   ; qtot 0
+; residue 115 SURF rtp SURF q  0.0
+   115         AU    115   SURF     Au    115          0    196.967   ; qtot 0
+; residue 116 SURF rtp SURF q  0.0
+   116         AU    116   SURF     Au    116          0    196.967   ; qtot 0
+; residue 117 SURF rtp SURF q  0.0
+   117         AU    117   SURF     Au    117          0    196.967   ; qtot 0
+; residue 118 SURF rtp SURF q  0.0
+   118         AU    118   SURF     Au    118          0    196.967   ; qtot 0
+; residue 119 SURF rtp SURF q  0.0
+   119         AU    119   SURF     Au    119          0    196.967   ; qtot 0
+; residue 120 SURF rtp SURF q  0.0
+   120         AU    120   SURF     Au    120          0    196.967   ; qtot 0
+; residue 121 SURF rtp SURF q  0.0
+   121         AU    121   SURF     Au    121          0    196.967   ; qtot 0
+; residue 122 SURF rtp SURF q  0.0
+   122         AU    122   SURF     Au    122          0    196.967   ; qtot 0
+; residue 123 SURF rtp SURF q  0.0
+   123         AU    123   SURF     Au    123          0    196.967   ; qtot 0
+; residue 124 SURF rtp SURF q  0.0
+   124         AU    124   SURF     Au    124          0    196.967   ; qtot 0
+; residue 125 SURF rtp SURF q  0.0
+   125         AU    125   SURF     Au    125          0    196.967   ; qtot 0
+; residue 126 SURF rtp SURF q  0.0
+   126         AU    126   SURF     Au    126          0    196.967   ; qtot 0
+; residue 127 SURF rtp SURF q  0.0
+   127         AU    127   SURF     Au    127          0    196.967   ; qtot 0
+; residue 128 SURF rtp SURF q  0.0
+   128         AU    128   SURF     Au    128          0    196.967   ; qtot 0
+; residue 129 SURF rtp SURF q  0.0
+   129         AU    129   SURF     Au    129          0    196.967   ; qtot 0
+; residue 130 SURF rtp SURF q  0.0
+   130         AU    130   SURF     Au    130          0    196.967   ; qtot 0
+; residue 131 SURF rtp SURF q  0.0
+   131         AU    131   SURF     Au    131          0    196.967   ; qtot 0
+; residue 132 SURF rtp SURF q  0.0
+   132         AU    132   SURF     Au    132          0    196.967   ; qtot 0
+; residue 133 SURF rtp SURF q  0.0
+   133         AU    133   SURF     Au    133          0    196.967   ; qtot 0
+; residue 134 SURF rtp SURF q  0.0
+   134         AU    134   SURF     Au    134          0    196.967   ; qtot 0
+; residue 135 SURF rtp SURF q  0.0
+   135         AU    135   SURF     Au    135          0    196.967   ; qtot 0
+; residue 136 SURF rtp SURF q  0.0
+   136         AU    136   SURF     Au    136          0    196.967   ; qtot 0
+; residue 137 SURF rtp SURF q  0.0
+   137         AU    137   SURF     Au    137          0    196.967   ; qtot 0
+; residue 138 SURF rtp SURF q  0.0
+   138         AU    138   SURF     Au    138          0    196.967   ; qtot 0
+; residue 139 SURF rtp SURF q  0.0
+   139         AU    139   SURF     Au    139          0    196.967   ; qtot 0
+; residue 140 SURF rtp SURF q  0.0
+   140         AU    140   SURF     Au    140          0    196.967   ; qtot 0
+; residue 141 SURF rtp SURF q  0.0
+   141         AU    141   SURF     Au    141          0    196.967   ; qtot 0
+; residue 142 SURF rtp SURF q  0.0
+   142         AU    142   SURF     Au    142          0    196.967   ; qtot 0
+; residue 143 SURF rtp SURF q  0.0
+   143         AU    143   SURF     Au    143          0    196.967   ; qtot 0
+; residue 144 SURF rtp SURF q  0.0
+   144         AU    144   SURF     Au    144          0    196.967   ; qtot 0
+; residue 145 SURF rtp SURF q  0.0
+   145         AU    145   SURF     Au    145          0    196.967   ; qtot 0
+; residue 146 SURF rtp SURF q  0.0
+   146         AU    146   SURF     Au    146          0    196.967   ; qtot 0
+; residue 147 SURF rtp SURF q  0.0
+   147         AU    147   SURF     Au    147          0    196.967   ; qtot 0
+; residue 148 SURF rtp SURF q  0.0
+   148         AU    148   SURF     Au    148          0    196.967   ; qtot 0
+; residue 149 SURF rtp SURF q  0.0
+   149         AU    149   SURF     Au    149          0    196.967   ; qtot 0
+; residue 150 SURF rtp SURF q  0.0
+   150         AU    150   SURF     Au    150          0    196.967   ; qtot 0
+; residue 151 SURF rtp SURF q  0.0
+   151         AU    151   SURF     Au    151          0    196.967   ; qtot 0
+; residue 152 SURF rtp SURF q  0.0
+   152         AU    152   SURF     Au    152          0    196.967   ; qtot 0
+; residue 153 SURF rtp SURF q  0.0
+   153         AU    153   SURF     Au    153          0    196.967   ; qtot 0
+; residue 154 SURF rtp SURF q  0.0
+   154         AU    154   SURF     Au    154          0    196.967   ; qtot 0
+; residue 155 SURF rtp SURF q  0.0
+   155         AU    155   SURF     Au    155          0    196.967   ; qtot 0
+; residue 156 SURF rtp SURF q  0.0
+   156         AU    156   SURF     Au    156          0    196.967   ; qtot 0
+; residue 157 SURF rtp SURF q  0.0
+   157         AU    157   SURF     Au    157          0    196.967   ; qtot 0
+; residue 158 SURF rtp SURF q  0.0
+   158         AU    158   SURF     Au    158          0    196.967   ; qtot 0
+; residue 159 SURF rtp SURF q  0.0
+   159         AU    159   SURF     Au    159          0    196.967   ; qtot 0
+; residue 160 SURF rtp SURF q  0.0
+   160         AU    160   SURF     Au    160          0    196.967   ; qtot 0
+; residue 161 SURF rtp SURF q  0.0
+   161         AU    161   SURF     Au    161          0    196.967   ; qtot 0
+; residue 162 SURF rtp SURF q  0.0
+   162         AU    162   SURF     Au    162          0    196.967   ; qtot 0
+; residue 163 SURF rtp SURF q  0.0
+   163         AU    163   SURF     Au    163          0    196.967   ; qtot 0
+; residue 164 SURF rtp SURF q  0.0
+   164         AU    164   SURF     Au    164          0    196.967   ; qtot 0
+; residue 165 SURF rtp SURF q  0.0
+   165         AU    165   SURF     Au    165          0    196.967   ; qtot 0
+; residue 166 SURF rtp SURF q  0.0
+   166         AU    166   SURF     Au    166          0    196.967   ; qtot 0
+; residue 167 SURF rtp SURF q  0.0
+   167         AU    167   SURF     Au    167          0    196.967   ; qtot 0
+; residue 168 SURF rtp SURF q  0.0
+   168         AU    168   SURF     Au    168          0    196.967   ; qtot 0
+; residue 169 SURF rtp SURF q  0.0
+   169         AU    169   SURF     Au    169          0    196.967   ; qtot 0
+; residue 170 SURF rtp SURF q  0.0
+   170         AU    170   SURF     Au    170          0    196.967   ; qtot 0
+; residue 171 SURF rtp SURF q  0.0
+   171         AU    171   SURF     Au    171          0    196.967   ; qtot 0
+; residue 172 SURF rtp SURF q  0.0
+   172         AU    172   SURF     Au    172          0    196.967   ; qtot 0
+; residue 173 SURF rtp SURF q  0.0
+   173         AU    173   SURF     Au    173          0    196.967   ; qtot 0
+; residue 174 SURF rtp SURF q  0.0
+   174         AU    174   SURF     Au    174          0    196.967   ; qtot 0
+; residue 175 SURF rtp SURF q  0.0
+   175         AU    175   SURF     Au    175          0    196.967   ; qtot 0
+; residue 176 SURF rtp SURF q  0.0
+   176         AU    176   SURF     Au    176          0    196.967   ; qtot 0
+; residue 177 SURF rtp SURF q  0.0
+   177         AU    177   SURF     Au    177          0    196.967   ; qtot 0
+; residue 178 SURF rtp SURF q  0.0
+   178         AU    178   SURF     Au    178          0    196.967   ; qtot 0
+; residue 179 SURF rtp SURF q  0.0
+   179         AU    179   SURF     Au    179          0    196.967   ; qtot 0
+; residue 180 SURF rtp SURF q  0.0
+   180         AU    180   SURF     Au    180          0    196.967   ; qtot 0
+; residue 181 SURF rtp SURF q  0.0
+   181         AU    181   SURF     Au    181          0    196.967   ; qtot 0
+; residue 182 SURF rtp SURF q  0.0
+   182         AU    182   SURF     Au    182          0    196.967   ; qtot 0
+; residue 183 SURF rtp SURF q  0.0
+   183         AU    183   SURF     Au    183          0    196.967   ; qtot 0
+; residue 184 SURF rtp SURF q  0.0
+   184         AU    184   SURF     Au    184          0    196.967   ; qtot 0
+; residue 185 SURF rtp SURF q  0.0
+   185         AU    185   SURF     Au    185          0    196.967   ; qtot 0
+; residue 186 SURF rtp SURF q  0.0
+   186         AU    186   SURF     Au    186          0    196.967   ; qtot 0
+; residue 187 SURF rtp SURF q  0.0
+   187         AU    187   SURF     Au    187          0    196.967   ; qtot 0
+; residue 188 SURF rtp SURF q  0.0
+   188         AU    188   SURF     Au    188          0    196.967   ; qtot 0
+; residue 189 SURF rtp SURF q  0.0
+   189         AU    189   SURF     Au    189          0    196.967   ; qtot 0
+; residue 190 SURF rtp SURF q  0.0
+   190         AU    190   SURF     Au    190          0    196.967   ; qtot 0
+; residue 191 SURF rtp SURF q  0.0
+   191         AU    191   SURF     Au    191          0    196.967   ; qtot 0
+; residue 192 SURF rtp SURF q  0.0
+   192         AU    192   SURF     Au    192          0    196.967   ; qtot 0
+; residue 193 SURF rtp SURF q  0.0
+   193         AU    193   SURF     Au    193          0    196.967   ; qtot 0
+; residue 194 SURF rtp SURF q  0.0
+   194         AU    194   SURF     Au    194          0    196.967   ; qtot 0
+; residue 195 SURF rtp SURF q  0.0
+   195         AU    195   SURF     Au    195          0    196.967   ; qtot 0
+; residue 196 SURF rtp SURF q  0.0
+   196         AU    196   SURF     Au    196          0    196.967   ; qtot 0
+; residue 197 SURF rtp SURF q  0.0
+   197         AU    197   SURF     Au    197          0    196.967   ; qtot 0
+; residue 198 SURF rtp SURF q  0.0
+   198         AU    198   SURF     Au    198          0    196.967   ; qtot 0
+; residue 199 SURF rtp SURF q  0.0
+   199         AU    199   SURF     Au    199          0    196.967   ; qtot 0
+; residue 200 SURF rtp SURF q  0.0
+   200         AU    200   SURF     Au    200          0    196.967   ; qtot 0
+; residue 201 SURF rtp SURF q  0.0
+   201         AU    201   SURF     Au    201          0    196.967   ; qtot 0
+; residue 202 SURF rtp SURF q  0.0
+   202         AU    202   SURF     Au    202          0    196.967   ; qtot 0
+; residue 203 SURF rtp SURF q  0.0
+   203         AU    203   SURF     Au    203          0    196.967   ; qtot 0
+; residue 204 SURF rtp SURF q  0.0
+   204         AU    204   SURF     Au    204          0    196.967   ; qtot 0
+; residue 205 SURF rtp SURF q  0.0
+   205         AU    205   SURF     Au    205          0    196.967   ; qtot 0
+; residue 206 SURF rtp SURF q  0.0
+   206         AU    206   SURF     Au    206          0    196.967   ; qtot 0
+; residue 207 SURF rtp SURF q  0.0
+   207         AU    207   SURF     Au    207          0    196.967   ; qtot 0
+; residue 208 SURF rtp SURF q  0.0
+   208         AU    208   SURF     Au    208          0    196.967   ; qtot 0
+; residue 209 SURF rtp SURF q  0.0
+   209         AU    209   SURF     Au    209          0    196.967   ; qtot 0
+; residue 210 SURF rtp SURF q  0.0
+   210         AU    210   SURF     Au    210          0    196.967   ; qtot 0
+; residue 211 SURF rtp SURF q  0.0
+   211         AU    211   SURF     Au    211          0    196.967   ; qtot 0
+; residue 212 SURF rtp SURF q  0.0
+   212         AU    212   SURF     Au    212          0    196.967   ; qtot 0
+; residue 213 SURF rtp SURF q  0.0
+   213         AU    213   SURF     Au    213          0    196.967   ; qtot 0
+; residue 214 SURF rtp SURF q  0.0
+   214         AU    214   SURF     Au    214          0    196.967   ; qtot 0
+; residue 215 SURF rtp SURF q  0.0
+   215         AU    215   SURF     Au    215          0    196.967   ; qtot 0
+; residue 216 SURF rtp SURF q  0.0
+   216         AU    216   SURF     Au    216          0    196.967   ; qtot 0
+; residue 217 SURF rtp SURF q  0.0
+   217         AU    217   SURF     Au    217          0    196.967   ; qtot 0
+; residue 218 SURF rtp SURF q  0.0
+   218         AU    218   SURF     Au    218          0    196.967   ; qtot 0
+; residue 219 SURF rtp SURF q  0.0
+   219         AU    219   SURF     Au    219          0    196.967   ; qtot 0
+; residue 220 SURF rtp SURF q  0.0
+   220         AU    220   SURF     Au    220          0    196.967   ; qtot 0
+; residue 221 SURF rtp SURF q  0.0
+   221         AU    221   SURF     Au    221          0    196.967   ; qtot 0
+; residue 222 SURF rtp SURF q  0.0
+   222         AU    222   SURF     Au    222          0    196.967   ; qtot 0
+; residue 223 SURF rtp SURF q  0.0
+   223         AU    223   SURF     Au    223          0    196.967   ; qtot 0
+; residue 224 SURF rtp SURF q  0.0
+   224         AU    224   SURF     Au    224          0    196.967   ; qtot 0
+; residue 225 SURF rtp SURF q  0.0
+   225         AU    225   SURF     Au    225          0    196.967   ; qtot 0
+; residue 226 SURF rtp SURF q  0.0
+   226         AU    226   SURF     Au    226          0    196.967   ; qtot 0
+; residue 227 SURF rtp SURF q  0.0
+   227         AU    227   SURF     Au    227          0    196.967   ; qtot 0
+; residue 228 SURF rtp SURF q  0.0
+   228         AU    228   SURF     Au    228          0    196.967   ; qtot 0
+; residue 229 SURF rtp SURF q  0.0
+   229         AU    229   SURF     Au    229          0    196.967   ; qtot 0
+; residue 230 SURF rtp SURF q  0.0
+   230         AU    230   SURF     Au    230          0    196.967   ; qtot 0
+; residue 231 SURF rtp SURF q  0.0
+   231         AU    231   SURF     Au    231          0    196.967   ; qtot 0
+; residue 232 SURF rtp SURF q  0.0
+   232         AU    232   SURF     Au    232          0    196.967   ; qtot 0
+; residue 233 SURF rtp SURF q  0.0
+   233         AU    233   SURF     Au    233          0    196.967   ; qtot 0
+; residue 234 SURF rtp SURF q  0.0
+   234         AU    234   SURF     Au    234          0    196.967   ; qtot 0
+; residue 235 SURF rtp SURF q  0.0
+   235         AU    235   SURF     Au    235          0    196.967   ; qtot 0
+; residue 236 SURF rtp SURF q  0.0
+   236         AU    236   SURF     Au    236          0    196.967   ; qtot 0
+; residue 237 SURF rtp SURF q  0.0
+   237         AU    237   SURF     Au    237          0    196.967   ; qtot 0
+; residue 238 SURF rtp SURF q  0.0
+   238         AU    238   SURF     Au    238          0    196.967   ; qtot 0
+; residue 239 SURF rtp SURF q  0.0
+   239         AU    239   SURF     Au    239          0    196.967   ; qtot 0
+; residue 240 SURF rtp SURF q  0.0
+   240         AU    240   SURF     Au    240          0    196.967   ; qtot 0
+; residue 241 SURF rtp SURF q  0.0
+   241         AU    241   SURF     Au    241          0    196.967   ; qtot 0
+; residue 242 SURF rtp SURF q  0.0
+   242         AU    242   SURF     Au    242          0    196.967   ; qtot 0
+; residue 243 SURF rtp SURF q  0.0
+   243         AU    243   SURF     Au    243          0    196.967   ; qtot 0
+; residue 244 SURF rtp SURF q  0.0
+   244         AU    244   SURF     Au    244          0    196.967   ; qtot 0
+; residue 245 SURF rtp SURF q  0.0
+   245         AU    245   SURF     Au    245          0    196.967   ; qtot 0
+; residue 246 SURF rtp SURF q  0.0
+   246         AU    246   SURF     Au    246          0    196.967   ; qtot 0
+; residue 247 SURF rtp SURF q  0.0
+   247         AU    247   SURF     Au    247          0    196.967   ; qtot 0
+; residue 248 SURF rtp SURF q  0.0
+   248         AU    248   SURF     Au    248          0    196.967   ; qtot 0
+; residue 249 SURF rtp SURF q  0.0
+   249         AU    249   SURF     Au    249          0    196.967   ; qtot 0
+; residue 250 SURF rtp SURF q  0.0
+   250         AU    250   SURF     Au    250          0    196.967   ; qtot 0
+; residue 251 SURF rtp SURF q  0.0
+   251         AU    251   SURF     Au    251          0    196.967   ; qtot 0
+; residue 252 SURF rtp SURF q  0.0
+   252         AU    252   SURF     Au    252          0    196.967   ; qtot 0
+; residue 253 SURF rtp SURF q  0.0
+   253         AU    253   SURF     Au    253          0    196.967   ; qtot 0
+; residue 254 SURF rtp SURF q  0.0
+   254         AU    254   SURF     Au    254          0    196.967   ; qtot 0
+; residue 255 SURF rtp SURF q  0.0
+   255         AU    255   SURF     Au    255          0    196.967   ; qtot 0
+; residue 256 SURF rtp SURF q  0.0
+   256         AU    256   SURF     Au    256          0    196.967   ; qtot 0
+; residue 257 SURF rtp SURF q  0.0
+   257         AU    257   SURF     Au    257          0    196.967   ; qtot 0
+; residue 258 SURF rtp SURF q  0.0
+   258         AU    258   SURF     Au    258          0    196.967   ; qtot 0
+; residue 259 SURF rtp SURF q  0.0
+   259         AU    259   SURF     Au    259          0    196.967   ; qtot 0
+; residue 260 SURF rtp SURF q  0.0
+   260         AU    260   SURF     Au    260          0    196.967   ; qtot 0
+; residue 261 SURF rtp SURF q  0.0
+   261         AU    261   SURF     Au    261          0    196.967   ; qtot 0
+; residue 262 SURF rtp SURF q  0.0
+   262         AU    262   SURF     Au    262          0    196.967   ; qtot 0
+; residue 263 SURF rtp SURF q  0.0
+   263         AU    263   SURF     Au    263          0    196.967   ; qtot 0
+; residue 264 SURF rtp SURF q  0.0
+   264         AU    264   SURF     Au    264          0    196.967   ; qtot 0
+; residue 265 SURF rtp SURF q  0.0
+   265         AU    265   SURF     Au    265          0    196.967   ; qtot 0
+; residue 266 SURF rtp SURF q  0.0
+   266         AU    266   SURF     Au    266          0    196.967   ; qtot 0
+; residue 267 SURF rtp SURF q  0.0
+   267         AU    267   SURF     Au    267          0    196.967   ; qtot 0
+; residue 268 SURF rtp SURF q  0.0
+   268         AU    268   SURF     Au    268          0    196.967   ; qtot 0
+; residue 269 SURF rtp SURF q  0.0
+   269         AU    269   SURF     Au    269          0    196.967   ; qtot 0
+; residue 270 SURF rtp SURF q  0.0
+   270         AU    270   SURF     Au    270          0    196.967   ; qtot 0
+; residue 271 SURF rtp SURF q  0.0
+   271         AU    271   SURF     Au    271          0    196.967   ; qtot 0
+; residue 272 SURF rtp SURF q  0.0
+   272         AU    272   SURF     Au    272          0    196.967   ; qtot 0
+; residue 273 SURF rtp SURF q  0.0
+   273         AU    273   SURF     Au    273          0    196.967   ; qtot 0
+; residue 274 SURF rtp SURF q  0.0
+   274         AU    274   SURF     Au    274          0    196.967   ; qtot 0
+; residue 275 SURF rtp SURF q  0.0
+   275         AU    275   SURF     Au    275          0    196.967   ; qtot 0
+; residue 276 SURF rtp SURF q  0.0
+   276         AU    276   SURF     Au    276          0    196.967   ; qtot 0
+; residue 277 SURF rtp SURF q  0.0
+   277         AU    277   SURF     Au    277          0    196.967   ; qtot 0
+; residue 278 SURF rtp SURF q  0.0
+   278         AU    278   SURF     Au    278          0    196.967   ; qtot 0
+; residue 279 SURF rtp SURF q  0.0
+   279         AU    279   SURF     Au    279          0    196.967   ; qtot 0
+; residue 280 SURF rtp SURF q  0.0
+   280         AU    280   SURF     Au    280          0    196.967   ; qtot 0
+; residue 281 SURF rtp SURF q  0.0
+   281         AU    281   SURF     Au    281          0    196.967   ; qtot 0
+; residue 282 SURF rtp SURF q  0.0
+   282         AU    282   SURF     Au    282          0    196.967   ; qtot 0
+; residue 283 SURF rtp SURF q  0.0
+   283         AU    283   SURF     Au    283          0    196.967   ; qtot 0
+; residue 284 SURF rtp SURF q  0.0
+   284         AU    284   SURF     Au    284          0    196.967   ; qtot 0
+; residue 285 SURF rtp SURF q  0.0
+   285         AU    285   SURF     Au    285          0    196.967   ; qtot 0
+; residue 286 SURF rtp SURF q  0.0
+   286         AU    286   SURF     Au    286          0    196.967   ; qtot 0
+; residue 287 SURF rtp SURF q  0.0
+   287         AU    287   SURF     Au    287          0    196.967   ; qtot 0
+; residue 288 SURF rtp SURF q  0.0
+   288         AU    288   SURF     Au    288          0    196.967   ; qtot 0
+; residue 289 SURF rtp SURF q  0.0
+   289         AU    289   SURF     Au    289          0    196.967   ; qtot 0
+; residue 290 SURF rtp SURF q  0.0
+   290         AU    290   SURF     Au    290          0    196.967   ; qtot 0
+; residue 291 SURF rtp SURF q  0.0
+   291         AU    291   SURF     Au    291          0    196.967   ; qtot 0
+; residue 292 SURF rtp SURF q  0.0
+   292         AU    292   SURF     Au    292          0    196.967   ; qtot 0
+; residue 293 SURF rtp SURF q  0.0
+   293         AU    293   SURF     Au    293          0    196.967   ; qtot 0
+; residue 294 SURF rtp SURF q  0.0
+   294         AU    294   SURF     Au    294          0    196.967   ; qtot 0
+; residue 295 SURF rtp SURF q  0.0
+   295         AU    295   SURF     Au    295          0    196.967   ; qtot 0
+; residue 296 SURF rtp SURF q  0.0
+   296         AU    296   SURF     Au    296          0    196.967   ; qtot 0
+; residue 297 SURF rtp SURF q  0.0
+   297         AU    297   SURF     Au    297          0    196.967   ; qtot 0
+; residue 298 SURF rtp SURF q  0.0
+   298         AU    298   SURF     Au    298          0    196.967   ; qtot 0
+; residue 299 SURF rtp SURF q  0.0
+   299         AU    299   SURF     Au    299          0    196.967   ; qtot 0
+; residue 300 SURF rtp SURF q  0.0
+   300         AU    300   SURF     Au    300          0    196.967   ; qtot 0
+; residue 301 SURF rtp SURF q  0.0
+   301         AU    301   SURF     Au    301          0    196.967   ; qtot 0
+; residue 302 SURF rtp SURF q  0.0
+   302         AU    302   SURF     Au    302          0    196.967   ; qtot 0
+; residue 303 SURF rtp SURF q  0.0
+   303         AU    303   SURF     Au    303          0    196.967   ; qtot 0
+; residue 304 SURF rtp SURF q  0.0
+   304         AU    304   SURF     Au    304          0    196.967   ; qtot 0
+; residue 305 SURF rtp SURF q  0.0
+   305         AU    305   SURF     Au    305          0    196.967   ; qtot 0
+; residue 306 SURF rtp SURF q  0.0
+   306         AU    306   SURF     Au    306          0    196.967   ; qtot 0
+; residue 307 SURF rtp SURF q  0.0
+   307         AU    307   SURF     Au    307          0    196.967   ; qtot 0
+; residue 308 SURF rtp SURF q  0.0
+   308         AU    308   SURF     Au    308          0    196.967   ; qtot 0
+; residue 309 SURF rtp SURF q  0.0
+   309         AU    309   SURF     Au    309          0    196.967   ; qtot 0
+; residue 310 SURF rtp SURF q  0.0
+   310         AU    310   SURF     Au    310          0    196.967   ; qtot 0
+; residue 311 SURF rtp SURF q  0.0
+   311         AU    311   SURF     Au    311          0    196.967   ; qtot 0
+; residue 312 SURF rtp SURF q  0.0
+   312         AU    312   SURF     Au    312          0    196.967   ; qtot 0
+; residue 313 SURF rtp SURF q  0.0
+   313         AU    313   SURF     Au    313          0    196.967   ; qtot 0
+; residue 314 SURF rtp SURF q  0.0
+   314         AU    314   SURF     Au    314          0    196.967   ; qtot 0
+; residue 315 SURF rtp SURF q  0.0
+   315         AU    315   SURF     Au    315          0    196.967   ; qtot 0
+; residue 316 SURF rtp SURF q  0.0
+   316         AU    316   SURF     Au    316          0    196.967   ; qtot 0
+; residue 317 SURF rtp SURF q  0.0
+   317         AU    317   SURF     Au    317          0    196.967   ; qtot 0
+; residue 318 SURF rtp SURF q  0.0
+   318         AU    318   SURF     Au    318          0    196.967   ; qtot 0
+; residue 319 SURF rtp SURF q  0.0
+   319         AU    319   SURF     Au    319          0    196.967   ; qtot 0
+; residue 320 SURF rtp SURF q  0.0
+   320         AU    320   SURF     Au    320          0    196.967   ; qtot 0
+; residue 321 SURF rtp SURF q  0.0
+   321         AU    321   SURF     Au    321          0    196.967   ; qtot 0
+; residue 322 SURF rtp SURF q  0.0
+   322         AU    322   SURF     Au    322          0    196.967   ; qtot 0
+; residue 323 SURF rtp SURF q  0.0
+   323         AU    323   SURF     Au    323          0    196.967   ; qtot 0
+; residue 324 SURF rtp SURF q  0.0
+   324         AU    324   SURF     Au    324          0    196.967   ; qtot 0
+; residue 325 SURF rtp SURF q  0.0
+   325         AU    325   SURF     Au    325          0    196.967   ; qtot 0
+; residue 326 SURF rtp SURF q  0.0
+   326         AU    326   SURF     Au    326          0    196.967   ; qtot 0
+; residue 327 SURF rtp SURF q  0.0
+   327         AU    327   SURF     Au    327          0    196.967   ; qtot 0
+; residue 328 SURF rtp SURF q  0.0
+   328         AU    328   SURF     Au    328          0    196.967   ; qtot 0
+; residue 329 SURF rtp SURF q  0.0
+   329         AU    329   SURF     Au    329          0    196.967   ; qtot 0
+; residue 330 SURF rtp SURF q  0.0
+   330         AU    330   SURF     Au    330          0    196.967   ; qtot 0
+; residue 331 SURF rtp SURF q  0.0
+   331         AU    331   SURF     Au    331          0    196.967   ; qtot 0
+; residue 332 SURF rtp SURF q  0.0
+   332         AU    332   SURF     Au    332          0    196.967   ; qtot 0
+; residue 333 SURF rtp SURF q  0.0
+   333         AU    333   SURF     Au    333          0    196.967   ; qtot 0
+; residue 334 SURF rtp SURF q  0.0
+   334         AU    334   SURF     Au    334          0    196.967   ; qtot 0
+; residue 335 SURF rtp SURF q  0.0
+   335         AU    335   SURF     Au    335          0    196.967   ; qtot 0
+; residue 336 SURF rtp SURF q  0.0
+   336         AU    336   SURF     Au    336          0    196.967   ; qtot 0
+; residue 337 SURF rtp SURF q  0.0
+   337         AU    337   SURF     Au    337          0    196.967   ; qtot 0
+; residue 338 SURF rtp SURF q  0.0
+   338         AU    338   SURF     Au    338          0    196.967   ; qtot 0
+; residue 339 SURF rtp SURF q  0.0
+   339         AU    339   SURF     Au    339          0    196.967   ; qtot 0
+; residue 340 SURF rtp SURF q  0.0
+   340         AU    340   SURF     Au    340          0    196.967   ; qtot 0
+; residue 341 SURF rtp SURF q  0.0
+   341         AU    341   SURF     Au    341          0    196.967   ; qtot 0
+; residue 342 SURF rtp SURF q  0.0
+   342         AU    342   SURF     Au    342          0    196.967   ; qtot 0
+; residue 343 SURF rtp SURF q  0.0
+   343         AU    343   SURF     Au    343          0    196.967   ; qtot 0
+; residue 344 SURF rtp SURF q  0.0
+   344         AU    344   SURF     Au    344          0    196.967   ; qtot 0
+; residue 345 SURF rtp SURF q  0.0
+   345         AU    345   SURF     Au    345          0    196.967   ; qtot 0
+; residue 346 SURF rtp SURF q  0.0
+   346         AU    346   SURF     Au    346          0    196.967   ; qtot 0
+; residue 347 SURF rtp SURF q  0.0
+   347         AU    347   SURF     Au    347          0    196.967   ; qtot 0
+; residue 348 SURF rtp SURF q  0.0
+   348         AU    348   SURF     Au    348          0    196.967   ; qtot 0
+; residue 349 SURF rtp SURF q  0.0
+   349         AU    349   SURF     Au    349          0    196.967   ; qtot 0
+; residue 350 SURF rtp SURF q  0.0
+   350         AU    350   SURF     Au    350          0    196.967   ; qtot 0
+; residue 351 SURF rtp SURF q  0.0
+   351         AU    351   SURF     Au    351          0    196.967   ; qtot 0
+; residue 352 SURF rtp SURF q  0.0
+   352         AU    352   SURF     Au    352          0    196.967   ; qtot 0
+; residue 353 SURF rtp SURF q  0.0
+   353         AU    353   SURF     Au    353          0    196.967   ; qtot 0
+; residue 354 SURF rtp SURF q  0.0
+   354         AU    354   SURF     Au    354          0    196.967   ; qtot 0
+; residue 355 SURF rtp SURF q  0.0
+   355         AU    355   SURF     Au    355          0    196.967   ; qtot 0
+; residue 356 SURF rtp SURF q  0.0
+   356         AU    356   SURF     Au    356          0    196.967   ; qtot 0
+; residue 357 SURF rtp SURF q  0.0
+   357         AU    357   SURF     Au    357          0    196.967   ; qtot 0
+; residue 358 SURF rtp SURF q  0.0
+   358         AU    358   SURF     Au    358          0    196.967   ; qtot 0
+; residue 359 SURF rtp SURF q  0.0
+   359         AU    359   SURF     Au    359          0    196.967   ; qtot 0
+; residue 360 SURF rtp SURF q  0.0
+   360         AU    360   SURF     Au    360          0    196.967   ; qtot 0
+; residue 361 SURF rtp SURF q  0.0
+   361         AU    361   SURF     Au    361          0    196.967   ; qtot 0
+; residue 362 SURF rtp SURF q  0.0
+   362         AU    362   SURF     Au    362          0    196.967   ; qtot 0
+; residue 363 SURF rtp SURF q  0.0
+   363         AU    363   SURF     Au    363          0    196.967   ; qtot 0
+; residue 364 SURF rtp SURF q  0.0
+   364         AU    364   SURF     Au    364          0    196.967   ; qtot 0
+; residue 365 SURF rtp SURF q  0.0
+   365         AU    365   SURF     Au    365          0    196.967   ; qtot 0
+; residue 366 SURF rtp SURF q  0.0
+   366         AU    366   SURF     Au    366          0    196.967   ; qtot 0
+; residue 367 SURF rtp SURF q  0.0
+   367         AU    367   SURF     Au    367          0    196.967   ; qtot 0
+; residue 368 SURF rtp SURF q  0.0
+   368         AU    368   SURF     Au    368          0    196.967   ; qtot 0
+; residue 369 SURF rtp SURF q  0.0
+   369         AU    369   SURF     Au    369          0    196.967   ; qtot 0
+; residue 370 SURF rtp SURF q  0.0
+   370         AU    370   SURF     Au    370          0    196.967   ; qtot 0
+; residue 371 SURF rtp SURF q  0.0
+   371         AU    371   SURF     Au    371          0    196.967   ; qtot 0
+; residue 372 SURF rtp SURF q  0.0
+   372         AU    372   SURF     Au    372          0    196.967   ; qtot 0
+; residue 373 SURF rtp SURF q  0.0
+   373         AU    373   SURF     Au    373          0    196.967   ; qtot 0
+; residue 374 SURF rtp SURF q  0.0
+   374         AU    374   SURF     Au    374          0    196.967   ; qtot 0
+; residue 375 SURF rtp SURF q  0.0
+   375         AU    375   SURF     Au    375          0    196.967   ; qtot 0
+; residue 376 SURF rtp SURF q  0.0
+   376         AU    376   SURF     Au    376          0    196.967   ; qtot 0
+; residue 377 SURF rtp SURF q  0.0
+   377         AU    377   SURF     Au    377          0    196.967   ; qtot 0
+; residue 378 SURF rtp SURF q  0.0
+   378         AU    378   SURF     Au    378          0    196.967   ; qtot 0
+; residue 379 SURF rtp SURF q  0.0
+   379         AU    379   SURF     Au    379          0    196.967   ; qtot 0
+; residue 380 SURF rtp SURF q  0.0
+   380         AU    380   SURF     Au    380          0    196.967   ; qtot 0
+; residue 381 SURF rtp SURF q  0.0
+   381         AU    381   SURF     Au    381          0    196.967   ; qtot 0
+; residue 382 SURF rtp SURF q  0.0
+   382         AU    382   SURF     Au    382          0    196.967   ; qtot 0
+; residue 383 SURF rtp SURF q  0.0
+   383         AU    383   SURF     Au    383          0    196.967   ; qtot 0
+; residue 384 SURF rtp SURF q  0.0
+   384         AU    384   SURF     Au    384          0    196.967   ; qtot 0
+; residue 385 SURF rtp SURF q  0.0
+   385         AU    385   SURF     Au    385          0    196.967   ; qtot 0
+; residue 386 SURF rtp SURF q  0.0
+   386         AU    386   SURF     Au    386          0    196.967   ; qtot 0
+; residue 387 SURF rtp SURF q  0.0
+   387         AU    387   SURF     Au    387          0    196.967   ; qtot 0
+; residue 388 SURF rtp SURF q  0.0
+   388         AU    388   SURF     Au    388          0    196.967   ; qtot 0
+; residue 389 SURF rtp SURF q  0.0
+   389         AU    389   SURF     Au    389          0    196.967   ; qtot 0
+; residue 390 SURF rtp SURF q  0.0
+   390         AU    390   SURF     Au    390          0    196.967   ; qtot 0
+; residue 391 SURF rtp SURF q  0.0
+   391         AU    391   SURF     Au    391          0    196.967   ; qtot 0
+; residue 392 SURF rtp SURF q  0.0
+   392         AU    392   SURF     Au    392          0    196.967   ; qtot 0
+; residue 393 SURF rtp SURF q  0.0
+   393         AU    393   SURF     Au    393          0    196.967   ; qtot 0
+; residue 394 SURF rtp SURF q  0.0
+   394         AU    394   SURF     Au    394          0    196.967   ; qtot 0
+; residue 395 SURF rtp SURF q  0.0
+   395         AU    395   SURF     Au    395          0    196.967   ; qtot 0
+; residue 396 SURF rtp SURF q  0.0
+   396         AU    396   SURF     Au    396          0    196.967   ; qtot 0
+; residue 397 SURF rtp SURF q  0.0
+   397         AU    397   SURF     Au    397          0    196.967   ; qtot 0
+; residue 398 SURF rtp SURF q  0.0
+   398         AU    398   SURF     Au    398          0    196.967   ; qtot 0
+; residue 399 SURF rtp SURF q  0.0
+   399         AU    399   SURF     Au    399          0    196.967   ; qtot 0
+; residue 400 SURF rtp SURF q  0.0
+   400         AU    400   SURF     Au    400          0    196.967   ; qtot 0
+; residue 401 SURF rtp SURF q  0.0
+   401         AU    401   SURF     Au    401          0    196.967   ; qtot 0
+; residue 402 SURF rtp SURF q  0.0
+   402         AU    402   SURF     Au    402          0    196.967   ; qtot 0
+; residue 403 SURF rtp SURF q  0.0
+   403         AU    403   SURF     Au    403          0    196.967   ; qtot 0
+; residue 404 SURF rtp SURF q  0.0
+   404         AU    404   SURF     Au    404          0    196.967   ; qtot 0
+; residue 405 SURF rtp SURF q  0.0
+   405         AU    405   SURF     Au    405          0    196.967   ; qtot 0
+; residue 406 SURF rtp SURF q  0.0
+   406         AU    406   SURF     Au    406          0    196.967   ; qtot 0
+; residue 407 SURF rtp SURF q  0.0
+   407         AU    407   SURF     Au    407          0    196.967   ; qtot 0
+; residue 408 SURF rtp SURF q  0.0
+   408         AU    408   SURF     Au    408          0    196.967   ; qtot 0
+; residue 409 SURF rtp SURF q  0.0
+   409         AU    409   SURF     Au    409          0    196.967   ; qtot 0
+; residue 410 SURF rtp SURF q  0.0
+   410         AU    410   SURF     Au    410          0    196.967   ; qtot 0
+; residue 411 SURF rtp SURF q  0.0
+   411         AU    411   SURF     Au    411          0    196.967   ; qtot 0
+; residue 412 SURF rtp SURF q  0.0
+   412         AU    412   SURF     Au    412          0    196.967   ; qtot 0
+; residue 413 SURF rtp SURF q  0.0
+   413         AU    413   SURF     Au    413          0    196.967   ; qtot 0
+; residue 414 SURF rtp SURF q  0.0
+   414         AU    414   SURF     Au    414          0    196.967   ; qtot 0
+; residue 415 SURF rtp SURF q  0.0
+   415         AU    415   SURF     Au    415          0    196.967   ; qtot 0
+; residue 416 SURF rtp SURF q  0.0
+   416         AU    416   SURF     Au    416          0    196.967   ; qtot 0
+; residue 417 SURF rtp SURF q  0.0
+   417         AU    417   SURF     Au    417          0    196.967   ; qtot 0
+; residue 418 SURF rtp SURF q  0.0
+   418         AU    418   SURF     Au    418          0    196.967   ; qtot 0
+; residue 419 SURF rtp SURF q  0.0
+   419         AU    419   SURF     Au    419          0    196.967   ; qtot 0
+; residue 420 SURF rtp SURF q  0.0
+   420         AU    420   SURF     Au    420          0    196.967   ; qtot 0
+; residue 421 SURF rtp SURF q  0.0
+   421         AU    421   SURF     Au    421          0    196.967   ; qtot 0
+; residue 422 SURF rtp SURF q  0.0
+   422         AU    422   SURF     Au    422          0    196.967   ; qtot 0
+; residue 423 SURF rtp SURF q  0.0
+   423         AU    423   SURF     Au    423          0    196.967   ; qtot 0
+; residue 424 SURF rtp SURF q  0.0
+   424         AU    424   SURF     Au    424          0    196.967   ; qtot 0
+; residue 425 SURF rtp SURF q  0.0
+   425         AU    425   SURF     Au    425          0    196.967   ; qtot 0
+; residue 426 SURF rtp SURF q  0.0
+   426         AU    426   SURF     Au    426          0    196.967   ; qtot 0
+; residue 427 SURF rtp SURF q  0.0
+   427         AU    427   SURF     Au    427          0    196.967   ; qtot 0
+; residue 428 SURF rtp SURF q  0.0
+   428         AU    428   SURF     Au    428          0    196.967   ; qtot 0
+; residue 429 SURF rtp SURF q  0.0
+   429         AU    429   SURF     Au    429          0    196.967   ; qtot 0
+; residue 430 SURF rtp SURF q  0.0
+   430         AU    430   SURF     Au    430          0    196.967   ; qtot 0
+; residue 431 SURF rtp SURF q  0.0
+   431         AU    431   SURF     Au    431          0    196.967   ; qtot 0
+; residue 432 SURF rtp SURF q  0.0
+   432         AU    432   SURF     Au    432          0    196.967   ; qtot 0
+; residue 433 SURF rtp SURF q  0.0
+   433         AU    433   SURF     Au    433          0    196.967   ; qtot 0
+; residue 434 SURF rtp SURF q  0.0
+   434         AU    434   SURF     Au    434          0    196.967   ; qtot 0
+; residue 435 SURF rtp SURF q  0.0
+   435         AU    435   SURF     Au    435          0    196.967   ; qtot 0
+; residue 436 SURF rtp SURF q  0.0
+   436         AU    436   SURF     Au    436          0    196.967   ; qtot 0
+; residue 437 SURF rtp SURF q  0.0
+   437         AU    437   SURF     Au    437          0    196.967   ; qtot 0
+; residue 438 SURF rtp SURF q  0.0
+   438         AU    438   SURF     Au    438          0    196.967   ; qtot 0
+; residue 439 SURF rtp SURF q  0.0
+   439         AU    439   SURF     Au    439          0    196.967   ; qtot 0
+; residue 440 SURF rtp SURF q  0.0
+   440         AU    440   SURF     Au    440          0    196.967   ; qtot 0
+; residue 441 SURF rtp SURF q  0.0
+   441         AU    441   SURF     Au    441          0    196.967   ; qtot 0
+; residue 442 SURF rtp SURF q  0.0
+   442         AU    442   SURF     Au    442          0    196.967   ; qtot 0
+; residue 443 SURF rtp SURF q  0.0
+   443         AU    443   SURF     Au    443          0    196.967   ; qtot 0
+; residue 444 SURF rtp SURF q  0.0
+   444         AU    444   SURF     Au    444          0    196.967   ; qtot 0
+; residue 445 SURF rtp SURF q  0.0
+   445         AU    445   SURF     Au    445          0    196.967   ; qtot 0
+; residue 446 SURF rtp SURF q  0.0
+   446         AU    446   SURF     Au    446          0    196.967   ; qtot 0
+; residue 447 SURF rtp SURF q  0.0
+   447         AU    447   SURF     Au    447          0    196.967   ; qtot 0
+; residue 448 SURF rtp SURF q  0.0
+   448         AU    448   SURF     Au    448          0    196.967   ; qtot 0
+; residue 449 SURF rtp SURF q  0.0
+   449         AU    449   SURF     Au    449          0    196.967   ; qtot 0
+; residue 450 SURF rtp SURF q  0.0
+   450         AU    450   SURF     Au    450          0    196.967   ; qtot 0
+; residue 451 SURF rtp SURF q  0.0
+   451         AU    451   SURF     Au    451          0    196.967   ; qtot 0
+; residue 452 SURF rtp SURF q  0.0
+   452         AU    452   SURF     Au    452          0    196.967   ; qtot 0
+; residue 453 SURF rtp SURF q  0.0
+   453         AU    453   SURF     Au    453          0    196.967   ; qtot 0
+; residue 454 SURF rtp SURF q  0.0
+   454         AU    454   SURF     Au    454          0    196.967   ; qtot 0
+; residue 455 SURF rtp SURF q  0.0
+   455         AU    455   SURF     Au    455          0    196.967   ; qtot 0
+; residue 456 SURF rtp SURF q  0.0
+   456         AU    456   SURF     Au    456          0    196.967   ; qtot 0
+; residue 457 SURF rtp SURF q  0.0
+   457         AU    457   SURF     Au    457          0    196.967   ; qtot 0
+; residue 458 SURF rtp SURF q  0.0
+   458         AU    458   SURF     Au    458          0    196.967   ; qtot 0
+; residue 459 SURF rtp SURF q  0.0
+   459         AU    459   SURF     Au    459          0    196.967   ; qtot 0
+; residue 460 SURF rtp SURF q  0.0
+   460         AU    460   SURF     Au    460          0    196.967   ; qtot 0
+; residue 461 SURF rtp SURF q  0.0
+   461         AU    461   SURF     Au    461          0    196.967   ; qtot 0
+; residue 462 SURF rtp SURF q  0.0
+   462         AU    462   SURF     Au    462          0    196.967   ; qtot 0
+; residue 463 SURF rtp SURF q  0.0
+   463         AU    463   SURF     Au    463          0    196.967   ; qtot 0
+; residue 464 SURF rtp SURF q  0.0
+   464         AU    464   SURF     Au    464          0    196.967   ; qtot 0
+; residue 465 SURF rtp SURF q  0.0
+   465         AU    465   SURF     Au    465          0    196.967   ; qtot 0
+; residue 466 SURF rtp SURF q  0.0
+   466         AU    466   SURF     Au    466          0    196.967   ; qtot 0
+; residue 467 SURF rtp SURF q  0.0
+   467         AU    467   SURF     Au    467          0    196.967   ; qtot 0
+; residue 468 SURF rtp SURF q  0.0
+   468         AU    468   SURF     Au    468          0    196.967   ; qtot 0
+; residue 469 SURF rtp SURF q  0.0
+   469         AU    469   SURF     Au    469          0    196.967   ; qtot 0
+; residue 470 SURF rtp SURF q  0.0
+   470         AU    470   SURF     Au    470          0    196.967   ; qtot 0
+; residue 471 SURF rtp SURF q  0.0
+   471         AU    471   SURF     Au    471          0    196.967   ; qtot 0
+; residue 472 SURF rtp SURF q  0.0
+   472         AU    472   SURF     Au    472          0    196.967   ; qtot 0
+; residue 473 SURF rtp SURF q  0.0
+   473         AU    473   SURF     Au    473          0    196.967   ; qtot 0
+; residue 474 SURF rtp SURF q  0.0
+   474         AU    474   SURF     Au    474          0    196.967   ; qtot 0
+; residue 475 SURF rtp SURF q  0.0
+   475         AU    475   SURF     Au    475          0    196.967   ; qtot 0
+; residue 476 SURF rtp SURF q  0.0
+   476         AU    476   SURF     Au    476          0    196.967   ; qtot 0
+; residue 477 SURF rtp SURF q  0.0
+   477         AU    477   SURF     Au    477          0    196.967   ; qtot 0
+; residue 478 SURF rtp SURF q  0.0
+   478         AU    478   SURF     Au    478          0    196.967   ; qtot 0
+; residue 479 SURF rtp SURF q  0.0
+   479         AU    479   SURF     Au    479          0    196.967   ; qtot 0
+; residue 480 SURF rtp SURF q  0.0
+   480         AU    480   SURF     Au    480          0    196.967   ; qtot 0
+; residue 481 SURF rtp SURF q  0.0
+   481         AU    481   SURF     Au    481          0    196.967   ; qtot 0
+; residue 482 SURF rtp SURF q  0.0
+   482         AU    482   SURF     Au    482          0    196.967   ; qtot 0
+; residue 483 SURF rtp SURF q  0.0
+   483         AU    483   SURF     Au    483          0    196.967   ; qtot 0
+; residue 484 SURF rtp SURF q  0.0
+   484         AU    484   SURF     Au    484          0    196.967   ; qtot 0
+; residue 485 SURF rtp SURF q  0.0
+   485         AU    485   SURF     Au    485          0    196.967   ; qtot 0
+; residue 486 SURF rtp SURF q  0.0
+   486         AU    486   SURF     Au    486          0    196.967   ; qtot 0
+; residue 487 SURF rtp SURF q  0.0
+   487         AU    487   SURF     Au    487          0    196.967   ; qtot 0
+; residue 488 SURF rtp SURF q  0.0
+   488         AU    488   SURF     Au    488          0    196.967   ; qtot 0
+; residue 489 SURF rtp SURF q  0.0
+   489         AU    489   SURF     Au    489          0    196.967   ; qtot 0
+; residue 490 SURF rtp SURF q  0.0
+   490         AU    490   SURF     Au    490          0    196.967   ; qtot 0
+; residue 491 SURF rtp SURF q  0.0
+   491         AU    491   SURF     Au    491          0    196.967   ; qtot 0
+; residue 492 SURF rtp SURF q  0.0
+   492         AU    492   SURF     Au    492          0    196.967   ; qtot 0
+; residue 493 SURF rtp SURF q  0.0
+   493         AU    493   SURF     Au    493          0    196.967   ; qtot 0
+; residue 494 SURF rtp SURF q  0.0
+   494         AU    494   SURF     Au    494          0    196.967   ; qtot 0
+; residue 495 SURF rtp SURF q  0.0
+   495         AU    495   SURF     Au    495          0    196.967   ; qtot 0
+; residue 496 SURF rtp SURF q  0.0
+   496         AU    496   SURF     Au    496          0    196.967   ; qtot 0
+; residue 497 SURF rtp SURF q  0.0
+   497         AU    497   SURF     Au    497          0    196.967   ; qtot 0
+; residue 498 SURF rtp SURF q  0.0
+   498         AU    498   SURF     Au    498          0    196.967   ; qtot 0
+; residue 499 SURF rtp SURF q  0.0
+   499         AU    499   SURF     Au    499          0    196.967   ; qtot 0
+; residue 500 SURF rtp SURF q  0.0
+   500         AU    500   SURF     Au    500          0    196.967   ; qtot 0
+; residue 501 SURF rtp SURF q  0.0
+   501         AU    501   SURF     Au    501          0    196.967   ; qtot 0
+; residue 502 SURF rtp SURF q  0.0
+   502         AU    502   SURF     Au    502          0    196.967   ; qtot 0
+; residue 503 SURF rtp SURF q  0.0
+   503         AU    503   SURF     Au    503          0    196.967   ; qtot 0
+; residue 504 SURF rtp SURF q  0.0
+   504         AU    504   SURF     Au    504          0    196.967   ; qtot 0
+; residue 505 SURF rtp SURF q  0.0
+   505         AU    505   SURF     Au    505          0    196.967   ; qtot 0
+; residue 506 SURF rtp SURF q  0.0
+   506         AU    506   SURF     Au    506          0    196.967   ; qtot 0
+; residue 507 SURF rtp SURF q  0.0
+   507         AU    507   SURF     Au    507          0    196.967   ; qtot 0
+; residue 508 SURF rtp SURF q  0.0
+   508         AU    508   SURF     Au    508          0    196.967   ; qtot 0
+; residue 509 SURF rtp SURF q  0.0
+   509         AU    509   SURF     Au    509          0    196.967   ; qtot 0
+; residue 510 SURF rtp SURF q  0.0
+   510         AU    510   SURF     Au    510          0    196.967   ; qtot 0
+; residue 511 SURF rtp SURF q  0.0
+   511         AU    511   SURF     Au    511          0    196.967   ; qtot 0
+; residue 512 SURF rtp SURF q  0.0
+   512         AU    512   SURF     Au    512          0    196.967   ; qtot 0
+; residue 513 SURF rtp SURF q  0.0
+   513         AU    513   SURF     Au    513          0    196.967   ; qtot 0
+; residue 514 SURF rtp SURF q  0.0
+   514         AU    514   SURF     Au    514          0    196.967   ; qtot 0
+; residue 515 SURF rtp SURF q  0.0
+   515         AU    515   SURF     Au    515          0    196.967   ; qtot 0
+; residue 516 SURF rtp SURF q  0.0
+   516         AU    516   SURF     Au    516          0    196.967   ; qtot 0
+; residue 517 SURF rtp SURF q  0.0
+   517         AU    517   SURF     Au    517          0    196.967   ; qtot 0
+; residue 518 SURF rtp SURF q  0.0
+   518         AU    518   SURF     Au    518          0    196.967   ; qtot 0
+; residue 519 SURF rtp SURF q  0.0
+   519         AU    519   SURF     Au    519          0    196.967   ; qtot 0
+; residue 520 SURF rtp SURF q  0.0
+   520         AU    520   SURF     Au    520          0    196.967   ; qtot 0
+; residue 521 SURF rtp SURF q  0.0
+   521         AU    521   SURF     Au    521          0    196.967   ; qtot 0
+; residue 522 SURF rtp SURF q  0.0
+   522         AU    522   SURF     Au    522          0    196.967   ; qtot 0
+; residue 523 SURF rtp SURF q  0.0
+   523         AU    523   SURF     Au    523          0    196.967   ; qtot 0
+; residue 524 SURF rtp SURF q  0.0
+   524         AU    524   SURF     Au    524          0    196.967   ; qtot 0
+; residue 525 SURF rtp SURF q  0.0
+   525         AU    525   SURF     Au    525          0    196.967   ; qtot 0
+; residue 526 SURF rtp SURF q  0.0
+   526         AU    526   SURF     Au    526          0    196.967   ; qtot 0
+; residue 527 SURF rtp SURF q  0.0
+   527         AU    527   SURF     Au    527          0    196.967   ; qtot 0
+; residue 528 SURF rtp SURF q  0.0
+   528         AU    528   SURF     Au    528          0    196.967   ; qtot 0
+; residue 529 SURF rtp SURF q  0.0
+   529         AU    529   SURF     Au    529          0    196.967   ; qtot 0
+; residue 530 SURF rtp SURF q  0.0
+   530         AU    530   SURF     Au    530          0    196.967   ; qtot 0
+; residue 531 SURF rtp SURF q  0.0
+   531         AU    531   SURF     Au    531          0    196.967   ; qtot 0
+; residue 532 SURF rtp SURF q  0.0
+   532         AU    532   SURF     Au    532          0    196.967   ; qtot 0
+; residue 533 SURF rtp SURF q  0.0
+   533         AU    533   SURF     Au    533          0    196.967   ; qtot 0
+; residue 534 SURF rtp SURF q  0.0
+   534         AU    534   SURF     Au    534          0    196.967   ; qtot 0
+; residue 535 SURF rtp SURF q  0.0
+   535         AU    535   SURF     Au    535          0    196.967   ; qtot 0
+; residue 536 SURF rtp SURF q  0.0
+   536         AU    536   SURF     Au    536          0    196.967   ; qtot 0
+; residue 537 SURF rtp SURF q  0.0
+   537         AU    537   SURF     Au    537          0    196.967   ; qtot 0
+; residue 538 SURF rtp SURF q  0.0
+   538         AU    538   SURF     Au    538          0    196.967   ; qtot 0
+; residue 539 SURF rtp SURF q  0.0
+   539         AU    539   SURF     Au    539          0    196.967   ; qtot 0
+; residue 540 SURF rtp SURF q  0.0
+   540         AU    540   SURF     Au    540          0    196.967   ; qtot 0
+; residue 541 SURF rtp SURF q  0.0
+   541         AU    541   SURF     Au    541          0    196.967   ; qtot 0
+; residue 542 SURF rtp SURF q  0.0
+   542         AU    542   SURF     Au    542          0    196.967   ; qtot 0
+; residue 543 SURF rtp SURF q  0.0
+   543         AU    543   SURF     Au    543          0    196.967   ; qtot 0
+; residue 544 SURF rtp SURF q  0.0
+   544         AU    544   SURF     Au    544          0    196.967   ; qtot 0
+; residue 545 SURF rtp SURF q  0.0
+   545         AU    545   SURF     Au    545          0    196.967   ; qtot 0
+; residue 546 SURF rtp SURF q  0.0
+   546         AU    546   SURF     Au    546          0    196.967   ; qtot 0
+; residue 547 SURF rtp SURF q  0.0
+   547         AU    547   SURF     Au    547          0    196.967   ; qtot 0
+; residue 548 SURF rtp SURF q  0.0
+   548         AU    548   SURF     Au    548          0    196.967   ; qtot 0
+; residue 549 SURF rtp SURF q  0.0
+   549         AU    549   SURF     Au    549          0    196.967   ; qtot 0
+; residue 550 SURF rtp SURF q  0.0
+   550         AU    550   SURF     Au    550          0    196.967   ; qtot 0
+; residue 551 SURF rtp SURF q  0.0
+   551         AU    551   SURF     Au    551          0    196.967   ; qtot 0
+; residue 552 SURF rtp SURF q  0.0
+   552         AU    552   SURF     Au    552          0    196.967   ; qtot 0
+; residue 553 SURF rtp SURF q  0.0
+   553         AU    553   SURF     Au    553          0    196.967   ; qtot 0
+; residue 554 SURF rtp SURF q  0.0
+   554         AU    554   SURF     Au    554          0    196.967   ; qtot 0
+; residue 555 SURF rtp SURF q  0.0
+   555         AU    555   SURF     Au    555          0    196.967   ; qtot 0
+; residue 556 SURF rtp SURF q  0.0
+   556         AU    556   SURF     Au    556          0    196.967   ; qtot 0
+; residue 557 SURF rtp SURF q  0.0
+   557         AU    557   SURF     Au    557          0    196.967   ; qtot 0
+; residue 558 SURF rtp SURF q  0.0
+   558         AU    558   SURF     Au    558          0    196.967   ; qtot 0
+; residue 559 SURF rtp SURF q  0.0
+   559         AU    559   SURF     Au    559          0    196.967   ; qtot 0
+; residue 560 SURF rtp SURF q  0.0
+   560         AU    560   SURF     Au    560          0    196.967   ; qtot 0
+; residue 561 SURF rtp SURF q  0.0
+   561         AU    561   SURF     Au    561          0    196.967   ; qtot 0
+; residue 562 SURF rtp SURF q  0.0
+   562         AU    562   SURF     Au    562          0    196.967   ; qtot 0
+; residue 563 SURF rtp SURF q  0.0
+   563         AU    563   SURF     Au    563          0    196.967   ; qtot 0
+; residue 564 SURF rtp SURF q  0.0
+   564         AU    564   SURF     Au    564          0    196.967   ; qtot 0
+; residue 565 SURF rtp SURF q  0.0
+   565         AU    565   SURF     Au    565          0    196.967   ; qtot 0
+; residue 566 SURF rtp SURF q  0.0
+   566         AU    566   SURF     Au    566          0    196.967   ; qtot 0
+; residue 567 SURF rtp SURF q  0.0
+   567         AU    567   SURF     Au    567          0    196.967   ; qtot 0
+; residue 568 SURF rtp SURF q  0.0
+   568         AU    568   SURF     Au    568          0    196.967   ; qtot 0
+; residue 569 SURF rtp SURF q  0.0
+   569         AU    569   SURF     Au    569          0    196.967   ; qtot 0
+; residue 570 SURF rtp SURF q  0.0
+   570         AU    570   SURF     Au    570          0    196.967   ; qtot 0
+; residue 571 SURF rtp SURF q  0.0
+   571         AU    571   SURF     Au    571          0    196.967   ; qtot 0
+; residue 572 SURF rtp SURF q  0.0
+   572         AU    572   SURF     Au    572          0    196.967   ; qtot 0
+; residue 573 SURF rtp SURF q  0.0
+   573         AU    573   SURF     Au    573          0    196.967   ; qtot 0
+; residue 574 SURF rtp SURF q  0.0
+   574         AU    574   SURF     Au    574          0    196.967   ; qtot 0
+; residue 575 SURF rtp SURF q  0.0
+   575         AU    575   SURF     Au    575          0    196.967   ; qtot 0
+; residue 576 SURF rtp SURF q  0.0
+   576         AU    576   SURF     Au    576          0    196.967   ; qtot 0
+; residue 577 SURF rtp SURF q  0.0
+   577         AU    577   SURF     Au    577          0    196.967   ; qtot 0
+; residue 578 SURF rtp SURF q  0.0
+   578         AU    578   SURF     Au    578          0    196.967   ; qtot 0
+; residue 579 SURF rtp SURF q  0.0
+   579         AU    579   SURF     Au    579          0    196.967   ; qtot 0
+; residue 580 SURF rtp SURF q  0.0
+   580         AU    580   SURF     Au    580          0    196.967   ; qtot 0
+; residue 581 SURF rtp SURF q  0.0
+   581         AU    581   SURF     Au    581          0    196.967   ; qtot 0
+; residue 582 SURF rtp SURF q  0.0
+   582         AU    582   SURF     Au    582          0    196.967   ; qtot 0
+; residue 583 SURF rtp SURF q  0.0
+   583         AU    583   SURF     Au    583          0    196.967   ; qtot 0
+; residue 584 SURF rtp SURF q  0.0
+   584         AU    584   SURF     Au    584          0    196.967   ; qtot 0
+; residue 585 SURF rtp SURF q  0.0
+   585         AU    585   SURF     Au    585          0    196.967   ; qtot 0
+; residue 586 SURF rtp SURF q  0.0
+   586         AU    586   SURF     Au    586          0    196.967   ; qtot 0
+; residue 587 SURF rtp SURF q  0.0
+   587         AU    587   SURF     Au    587          0    196.967   ; qtot 0
+; residue 588 SURF rtp SURF q  0.0
+   588         AU    588   SURF     Au    588          0    196.967   ; qtot 0
+; residue 589 SURF rtp SURF q  0.0
+   589         AU    589   SURF     Au    589          0    196.967   ; qtot 0
+; residue 590 SURF rtp SURF q  0.0
+   590         AU    590   SURF     Au    590          0    196.967   ; qtot 0
+; residue 591 SURF rtp SURF q  0.0
+   591         AU    591   SURF     Au    591          0    196.967   ; qtot 0
+; residue 592 SURF rtp SURF q  0.0
+   592         AU    592   SURF     Au    592          0    196.967   ; qtot 0
+; residue 593 SURF rtp SURF q  0.0
+   593         AU    593   SURF     Au    593          0    196.967   ; qtot 0
+; residue 594 SURF rtp SURF q  0.0
+   594         AU    594   SURF     Au    594          0    196.967   ; qtot 0
+; residue 595 SURF rtp SURF q  0.0
+   595         AU    595   SURF     Au    595          0    196.967   ; qtot 0
+; residue 596 SURF rtp SURF q  0.0
+   596         AU    596   SURF     Au    596          0    196.967   ; qtot 0
+; residue 597 SURF rtp SURF q  0.0
+   597         AU    597   SURF     Au    597          0    196.967   ; qtot 0
+; residue 598 SURF rtp SURF q  0.0
+   598         AU    598   SURF     Au    598          0    196.967   ; qtot 0
+; residue 599 SURF rtp SURF q  0.0
+   599         AU    599   SURF     Au    599          0    196.967   ; qtot 0
+; residue 600 SURF rtp SURF q  0.0
+   600         AU    600   SURF     Au    600          0    196.967   ; qtot 0
+; residue 601 SURF rtp SURF q  0.0
+   601         AU    601   SURF     Au    601          0    196.967   ; qtot 0
+; residue 602 SURF rtp SURF q  0.0
+   602         AU    602   SURF     Au    602          0    196.967   ; qtot 0
+; residue 603 SURF rtp SURF q  0.0
+   603         AU    603   SURF     Au    603          0    196.967   ; qtot 0
+; residue 604 SURF rtp SURF q  0.0
+   604         AU    604   SURF     Au    604          0    196.967   ; qtot 0
+; residue 605 SURF rtp SURF q  0.0
+   605         AU    605   SURF     Au    605          0    196.967   ; qtot 0
+; residue 606 SURF rtp SURF q  0.0
+   606         AU    606   SURF     Au    606          0    196.967   ; qtot 0
+; residue 607 SURF rtp SURF q  0.0
+   607         AU    607   SURF     Au    607          0    196.967   ; qtot 0
+; residue 608 SURF rtp SURF q  0.0
+   608         AU    608   SURF     Au    608          0    196.967   ; qtot 0
+; residue 609 SURF rtp SURF q  0.0
+   609         AU    609   SURF     Au    609          0    196.967   ; qtot 0
+; residue 610 SURF rtp SURF q  0.0
+   610         AU    610   SURF     Au    610          0    196.967   ; qtot 0
+; residue 611 SURF rtp SURF q  0.0
+   611         AU    611   SURF     Au    611          0    196.967   ; qtot 0
+; residue 612 SURF rtp SURF q  0.0
+   612         AU    612   SURF     Au    612          0    196.967   ; qtot 0
+; residue 613 SURF rtp SURF q  0.0
+   613         AU    613   SURF     Au    613          0    196.967   ; qtot 0
+; residue 614 SURF rtp SURF q  0.0
+   614         AU    614   SURF     Au    614          0    196.967   ; qtot 0
+; residue 615 SURF rtp SURF q  0.0
+   615         AU    615   SURF     Au    615          0    196.967   ; qtot 0
+; residue 616 SURF rtp SURF q  0.0
+   616         AU    616   SURF     Au    616          0    196.967   ; qtot 0
+; residue 617 SURF rtp SURF q  0.0
+   617         AU    617   SURF     Au    617          0    196.967   ; qtot 0
+; residue 618 SURF rtp SURF q  0.0
+   618         AU    618   SURF     Au    618          0    196.967   ; qtot 0
+; residue 619 SURF rtp SURF q  0.0
+   619         AU    619   SURF     Au    619          0    196.967   ; qtot 0
+; residue 620 SURF rtp SURF q  0.0
+   620         AU    620   SURF     Au    620          0    196.967   ; qtot 0
+; residue 621 SURF rtp SURF q  0.0
+   621         AU    621   SURF     Au    621          0    196.967   ; qtot 0
+; residue 622 SURF rtp SURF q  0.0
+   622         AU    622   SURF     Au    622          0    196.967   ; qtot 0
+; residue 623 SURF rtp SURF q  0.0
+   623         AU    623   SURF     Au    623          0    196.967   ; qtot 0
+; residue 624 SURF rtp SURF q  0.0
+   624         AU    624   SURF     Au    624          0    196.967   ; qtot 0
+; residue 625 SURF rtp SURF q  0.0
+   625         AU    625   SURF     Au    625          0    196.967   ; qtot 0
+; residue 626 SURF rtp SURF q  0.0
+   626         AU    626   SURF     Au    626          0    196.967   ; qtot 0
+; residue 627 SURF rtp SURF q  0.0
+   627         AU    627   SURF     Au    627          0    196.967   ; qtot 0
+; residue 628 SURF rtp SURF q  0.0
+   628         AU    628   SURF     Au    628          0    196.967   ; qtot 0
+; residue 629 SURF rtp SURF q  0.0
+   629         AU    629   SURF     Au    629          0    196.967   ; qtot 0
+; residue 630 SURF rtp SURF q  0.0
+   630         AU    630   SURF     Au    630          0    196.967   ; qtot 0
+; residue 631 SURF rtp SURF q  0.0
+   631         AU    631   SURF     Au    631          0    196.967   ; qtot 0
+; residue 632 SURF rtp SURF q  0.0
+   632         AU    632   SURF     Au    632          0    196.967   ; qtot 0
+; residue 633 SURF rtp SURF q  0.0
+   633         AU    633   SURF     Au    633          0    196.967   ; qtot 0
+; residue 634 SURF rtp SURF q  0.0
+   634         AU    634   SURF     Au    634          0    196.967   ; qtot 0
+; residue 635 SURF rtp SURF q  0.0
+   635         AU    635   SURF     Au    635          0    196.967   ; qtot 0
+; residue 636 SURF rtp SURF q  0.0
+   636         AU    636   SURF     Au    636          0    196.967   ; qtot 0
+; residue 637 SURF rtp SURF q  0.0
+   637         AU    637   SURF     Au    637          0    196.967   ; qtot 0
+; residue 638 SURF rtp SURF q  0.0
+   638         AU    638   SURF     Au    638          0    196.967   ; qtot 0
+; residue 639 SURF rtp SURF q  0.0
+   639         AU    639   SURF     Au    639          0    196.967   ; qtot 0
+; residue 640 SURF rtp SURF q  0.0
+   640         AU    640   SURF     Au    640          0    196.967   ; qtot 0
+; residue 641 SURF rtp SURF q  0.0
+   641         AU    641   SURF     Au    641          0    196.967   ; qtot 0
+; residue 642 SURF rtp SURF q  0.0
+   642         AU    642   SURF     Au    642          0    196.967   ; qtot 0
+; residue 643 SURF rtp SURF q  0.0
+   643         AU    643   SURF     Au    643          0    196.967   ; qtot 0
+; residue 644 SURF rtp SURF q  0.0
+   644         AU    644   SURF     Au    644          0    196.967   ; qtot 0
+; residue 645 SURF rtp SURF q  0.0
+   645         AU    645   SURF     Au    645          0    196.967   ; qtot 0
+; residue 646 SURF rtp SURF q  0.0
+   646         AU    646   SURF     Au    646          0    196.967   ; qtot 0
+; residue 647 SURF rtp SURF q  0.0
+   647         AU    647   SURF     Au    647          0    196.967   ; qtot 0
+; residue 648 SURF rtp SURF q  0.0
+   648         AU    648   SURF     Au    648          0    196.967   ; qtot 0
+; residue 649 SURF rtp SURF q  0.0
+   649         AU    649   SURF     Au    649          0    196.967   ; qtot 0
+; residue 650 SURF rtp SURF q  0.0
+   650         AU    650   SURF     Au    650          0    196.967   ; qtot 0
+; residue 651 SURF rtp SURF q  0.0
+   651         AU    651   SURF     Au    651          0    196.967   ; qtot 0
+; residue 652 SURF rtp SURF q  0.0
+   652         AU    652   SURF     Au    652          0    196.967   ; qtot 0
+; residue 653 SURF rtp SURF q  0.0
+   653         AU    653   SURF     Au    653          0    196.967   ; qtot 0
+; residue 654 SURF rtp SURF q  0.0
+   654         AU    654   SURF     Au    654          0    196.967   ; qtot 0
+; residue 655 SURF rtp SURF q  0.0
+   655         AU    655   SURF     Au    655          0    196.967   ; qtot 0
+; residue 656 SURF rtp SURF q  0.0
+   656         AU    656   SURF     Au    656          0    196.967   ; qtot 0
+; residue 657 SURF rtp SURF q  0.0
+   657         AU    657   SURF     Au    657          0    196.967   ; qtot 0
+; residue 658 SURF rtp SURF q  0.0
+   658         AU    658   SURF     Au    658          0    196.967   ; qtot 0
+; residue 659 SURF rtp SURF q  0.0
+   659         AU    659   SURF     Au    659          0    196.967   ; qtot 0
+; residue 660 SURF rtp SURF q  0.0
+   660         AU    660   SURF     Au    660          0    196.967   ; qtot 0
+; residue 661 SURF rtp SURF q  0.0
+   661         AU    661   SURF     Au    661          0    196.967   ; qtot 0
+; residue 662 SURF rtp SURF q  0.0
+   662         AU    662   SURF     Au    662          0    196.967   ; qtot 0
+; residue 663 SURF rtp SURF q  0.0
+   663         AU    663   SURF     Au    663          0    196.967   ; qtot 0
+; residue 664 SURF rtp SURF q  0.0
+   664         AU    664   SURF     Au    664          0    196.967   ; qtot 0
+; residue 665 SURF rtp SURF q  0.0
+   665         AU    665   SURF     Au    665          0    196.967   ; qtot 0
+; residue 666 SURF rtp SURF q  0.0
+   666         AU    666   SURF     Au    666          0    196.967   ; qtot 0
+; residue 667 SURF rtp SURF q  0.0
+   667         AU    667   SURF     Au    667          0    196.967   ; qtot 0
+; residue 668 SURF rtp SURF q  0.0
+   668         AU    668   SURF     Au    668          0    196.967   ; qtot 0
+; residue 669 SURF rtp SURF q  0.0
+   669         AU    669   SURF     Au    669          0    196.967   ; qtot 0
+; residue 670 SURF rtp SURF q  0.0
+   670         AU    670   SURF     Au    670          0    196.967   ; qtot 0
+; residue 671 SURF rtp SURF q  0.0
+   671         AU    671   SURF     Au    671          0    196.967   ; qtot 0
+; residue 672 SURF rtp SURF q  0.0
+   672         AU    672   SURF     Au    672          0    196.967   ; qtot 0
+; residue 673 SURF rtp SURF q  0.0
+   673         AU    673   SURF     Au    673          0    196.967   ; qtot 0
+; residue 674 SURF rtp SURF q  0.0
+   674         AU    674   SURF     Au    674          0    196.967   ; qtot 0
+; residue 675 SURF rtp SURF q  0.0
+   675         AU    675   SURF     Au    675          0    196.967   ; qtot 0
+; residue 676 SURF rtp SURF q  0.0
+   676         AU    676   SURF     Au    676          0    196.967   ; qtot 0
+; residue 677 SURF rtp SURF q  0.0
+   677         AU    677   SURF     Au    677          0    196.967   ; qtot 0
+; residue 678 SURF rtp SURF q  0.0
+   678         AU    678   SURF     Au    678          0    196.967   ; qtot 0
+; residue 679 SURF rtp SURF q  0.0
+   679         AU    679   SURF     Au    679          0    196.967   ; qtot 0
+; residue 680 SURF rtp SURF q  0.0
+   680         AU    680   SURF     Au    680          0    196.967   ; qtot 0
+; residue 681 SURF rtp SURF q  0.0
+   681         AU    681   SURF     Au    681          0    196.967   ; qtot 0
+; residue 682 SURF rtp SURF q  0.0
+   682         AU    682   SURF     Au    682          0    196.967   ; qtot 0
+; residue 683 SURF rtp SURF q  0.0
+   683         AU    683   SURF     Au    683          0    196.967   ; qtot 0
+; residue 684 SURF rtp SURF q  0.0
+   684         AU    684   SURF     Au    684          0    196.967   ; qtot 0
+; residue 685 SURF rtp SURF q  0.0
+   685         AU    685   SURF     Au    685          0    196.967   ; qtot 0
+; residue 686 SURF rtp SURF q  0.0
+   686         AU    686   SURF     Au    686          0    196.967   ; qtot 0
+; residue 687 SURF rtp SURF q  0.0
+   687         AU    687   SURF     Au    687          0    196.967   ; qtot 0
+; residue 688 SURF rtp SURF q  0.0
+   688         AU    688   SURF     Au    688          0    196.967   ; qtot 0
+; residue 689 SURF rtp SURF q  0.0
+   689         AU    689   SURF     Au    689          0    196.967   ; qtot 0
+; residue 690 SURF rtp SURF q  0.0
+   690         AU    690   SURF     Au    690          0    196.967   ; qtot 0
+; residue 691 SURF rtp SURF q  0.0
+   691         AU    691   SURF     Au    691          0    196.967   ; qtot 0
+; residue 692 SURF rtp SURF q  0.0
+   692         AU    692   SURF     Au    692          0    196.967   ; qtot 0
+; residue 693 SURF rtp SURF q  0.0
+   693         AU    693   SURF     Au    693          0    196.967   ; qtot 0
+; residue 694 SURF rtp SURF q  0.0
+   694         AU    694   SURF     Au    694          0    196.967   ; qtot 0
+; residue 695 SURF rtp SURF q  0.0
+   695         AU    695   SURF     Au    695          0    196.967   ; qtot 0
+; residue 696 SURF rtp SURF q  0.0
+   696         AU    696   SURF     Au    696          0    196.967   ; qtot 0
+; residue 697 SURF rtp SURF q  0.0
+   697         AU    697   SURF     Au    697          0    196.967   ; qtot 0
+; residue 698 SURF rtp SURF q  0.0
+   698         AU    698   SURF     Au    698          0    196.967   ; qtot 0
+; residue 699 SURF rtp SURF q  0.0
+   699         AU    699   SURF     Au    699          0    196.967   ; qtot 0
+; residue 700 SURF rtp SURF q  0.0
+   700         AU    700   SURF     Au    700          0    196.967   ; qtot 0
+; residue 701 SURF rtp SURF q  0.0
+   701         AU    701   SURF     Au    701          0    196.967   ; qtot 0
+; residue 702 SURF rtp SURF q  0.0
+   702         AU    702   SURF     Au    702          0    196.967   ; qtot 0
+; residue 703 SURF rtp SURF q  0.0
+   703         AU    703   SURF     Au    703          0    196.967   ; qtot 0
+; residue 704 SURF rtp SURF q  0.0
+   704         AU    704   SURF     Au    704          0    196.967   ; qtot 0
+; residue 705 SURF rtp SURF q  0.0
+   705         AU    705   SURF     Au    705          0    196.967   ; qtot 0
+; residue 706 SURF rtp SURF q  0.0
+   706         AU    706   SURF     Au    706          0    196.967   ; qtot 0
+; residue 707 SURF rtp SURF q  0.0
+   707         AU    707   SURF     Au    707          0    196.967   ; qtot 0
+; residue 708 SURF rtp SURF q  0.0
+   708         AU    708   SURF     Au    708          0    196.967   ; qtot 0
+; residue 709 SURF rtp SURF q  0.0
+   709         AU    709   SURF     Au    709          0    196.967   ; qtot 0
+; residue 710 SURF rtp SURF q  0.0
+   710         AU    710   SURF     Au    710          0    196.967   ; qtot 0
+; residue 711 SURF rtp SURF q  0.0
+   711         AU    711   SURF     Au    711          0    196.967   ; qtot 0
+; residue 712 SURF rtp SURF q  0.0
+   712         AU    712   SURF     Au    712          0    196.967   ; qtot 0
+; residue 713 SURF rtp SURF q  0.0
+   713         AU    713   SURF     Au    713          0    196.967   ; qtot 0
+; residue 714 SURF rtp SURF q  0.0
+   714         AU    714   SURF     Au    714          0    196.967   ; qtot 0
+; residue 715 SURF rtp SURF q  0.0
+   715         AU    715   SURF     Au    715          0    196.967   ; qtot 0
+; residue 716 SURF rtp SURF q  0.0
+   716         AU    716   SURF     Au    716          0    196.967   ; qtot 0
+; residue 717 SURF rtp SURF q  0.0
+   717         AU    717   SURF     Au    717          0    196.967   ; qtot 0
+; residue 718 SURF rtp SURF q  0.0
+   718         AU    718   SURF     Au    718          0    196.967   ; qtot 0
+; residue 719 SURF rtp SURF q  0.0
+   719         AU    719   SURF     Au    719          0    196.967   ; qtot 0
+; residue 720 SURF rtp SURF q  0.0
+   720         AU    720   SURF     Au    720          0    196.967   ; qtot 0
+; residue 721 SURF rtp SURF q  0.0
+   721         AU    721   SURF     Au    721          0    196.967   ; qtot 0
+; residue 722 SURF rtp SURF q  0.0
+   722         AU    722   SURF     Au    722          0    196.967   ; qtot 0
+; residue 723 SURF rtp SURF q  0.0
+   723         AU    723   SURF     Au    723          0    196.967   ; qtot 0
+; residue 724 SURF rtp SURF q  0.0
+   724         AU    724   SURF     Au    724          0    196.967   ; qtot 0
+; residue 725 SURF rtp SURF q  0.0
+   725         AU    725   SURF     Au    725          0    196.967   ; qtot 0
+; residue 726 SURF rtp SURF q  0.0
+   726         AU    726   SURF     Au    726          0    196.967   ; qtot 0
+; residue 727 SURF rtp SURF q  0.0
+   727         AU    727   SURF     Au    727          0    196.967   ; qtot 0
+; residue 728 SURF rtp SURF q  0.0
+   728         AU    728   SURF     Au    728          0    196.967   ; qtot 0
+; residue 729 SURF rtp SURF q  0.0
+   729         AU    729   SURF     Au    729          0    196.967   ; qtot 0
+; residue 730 SURF rtp SURF q  0.0
+   730         AU    730   SURF     Au    730          0    196.967   ; qtot 0
+; residue 731 SURF rtp SURF q  0.0
+   731         AU    731   SURF     Au    731          0    196.967   ; qtot 0
+; residue 732 SURF rtp SURF q  0.0
+   732         AU    732   SURF     Au    732          0    196.967   ; qtot 0
+; residue 733 SURF rtp SURF q  0.0
+   733         AU    733   SURF     Au    733          0    196.967   ; qtot 0
+; residue 734 SURF rtp SURF q  0.0
+   734         AU    734   SURF     Au    734          0    196.967   ; qtot 0
+; residue 735 SURF rtp SURF q  0.0
+   735         AU    735   SURF     Au    735          0    196.967   ; qtot 0
+; residue 736 SURF rtp SURF q  0.0
+   736         AU    736   SURF     Au    736          0    196.967   ; qtot 0
+; residue 737 SURF rtp SURF q  0.0
+   737         AU    737   SURF     Au    737          0    196.967   ; qtot 0
+; residue 738 SURF rtp SURF q  0.0
+   738         AU    738   SURF     Au    738          0    196.967   ; qtot 0
+; residue 739 SURF rtp SURF q  0.0
+   739         AU    739   SURF     Au    739          0    196.967   ; qtot 0
+; residue 740 SURF rtp SURF q  0.0
+   740         AU    740   SURF     Au    740          0    196.967   ; qtot 0
+; residue 741 SURF rtp SURF q  0.0
+   741         AU    741   SURF     Au    741          0    196.967   ; qtot 0
+; residue 742 SURF rtp SURF q  0.0
+   742         AU    742   SURF     Au    742          0    196.967   ; qtot 0
+; residue 743 SURF rtp SURF q  0.0
+   743         AU    743   SURF     Au    743          0    196.967   ; qtot 0
+; residue 744 SURF rtp SURF q  0.0
+   744         AU    744   SURF     Au    744          0    196.967   ; qtot 0
+; residue 745 SURF rtp SURF q  0.0
+   745         AU    745   SURF     Au    745          0    196.967   ; qtot 0
+; residue 746 SURF rtp SURF q  0.0
+   746         AU    746   SURF     Au    746          0    196.967   ; qtot 0
+; residue 747 SURF rtp SURF q  0.0
+   747         AU    747   SURF     Au    747          0    196.967   ; qtot 0
+; residue 748 SURF rtp SURF q  0.0
+   748         AU    748   SURF     Au    748          0    196.967   ; qtot 0
+; residue 749 SURF rtp SURF q  0.0
+   749         AU    749   SURF     Au    749          0    196.967   ; qtot 0
+; residue 750 SURF rtp SURF q  0.0
+   750         AU    750   SURF     Au    750          0    196.967   ; qtot 0
+; residue 751 SURF rtp SURF q  0.0
+   751         AU    751   SURF     Au    751          0    196.967   ; qtot 0
+; residue 752 SURF rtp SURF q  0.0
+   752         AU    752   SURF     Au    752          0    196.967   ; qtot 0
+; residue 753 SURF rtp SURF q  0.0
+   753         AU    753   SURF     Au    753          0    196.967   ; qtot 0
+; residue 754 SURF rtp SURF q  0.0
+   754         AU    754   SURF     Au    754          0    196.967   ; qtot 0
+; residue 755 SURF rtp SURF q  0.0
+   755         AU    755   SURF     Au    755          0    196.967   ; qtot 0
+; residue 756 SURF rtp SURF q  0.0
+   756         AU    756   SURF     Au    756          0    196.967   ; qtot 0
+; residue 757 SURF rtp SURF q  0.0
+   757         AU    757   SURF     Au    757          0    196.967   ; qtot 0
+; residue 758 SURF rtp SURF q  0.0
+   758         AU    758   SURF     Au    758          0    196.967   ; qtot 0
+; residue 759 SURF rtp SURF q  0.0
+   759         AU    759   SURF     Au    759          0    196.967   ; qtot 0
+; residue 760 SURF rtp SURF q  0.0
+   760         AU    760   SURF     Au    760          0    196.967   ; qtot 0
+; residue 761 SURF rtp SURF q  0.0
+   761         AU    761   SURF     Au    761          0    196.967   ; qtot 0
+; residue 762 SURF rtp SURF q  0.0
+   762         AU    762   SURF     Au    762          0    196.967   ; qtot 0
+; residue 763 SURF rtp SURF q  0.0
+   763         AU    763   SURF     Au    763          0    196.967   ; qtot 0
+; residue 764 SURF rtp SURF q  0.0
+   764         AU    764   SURF     Au    764          0    196.967   ; qtot 0
+; residue 765 SURF rtp SURF q  0.0
+   765         AU    765   SURF     Au    765          0    196.967   ; qtot 0
+; residue 766 SURF rtp SURF q  0.0
+   766         AU    766   SURF     Au    766          0    196.967   ; qtot 0
+; residue 767 SURF rtp SURF q  0.0
+   767         AU    767   SURF     Au    767          0    196.967   ; qtot 0
+; residue 768 SURF rtp SURF q  0.0
+   768         AU    768   SURF     Au    768          0    196.967   ; qtot 0
+; residue 769 SURF rtp SURF q  0.0
+   769         AU    769   SURF     Au    769          0    196.967   ; qtot 0
+; residue 770 SURF rtp SURF q  0.0
+   770         AU    770   SURF     Au    770          0    196.967   ; qtot 0
+; residue 771 SURF rtp SURF q  0.0
+   771         AU    771   SURF     Au    771          0    196.967   ; qtot 0
+; residue 772 SURF rtp SURF q  0.0
+   772         AU    772   SURF     Au    772          0    196.967   ; qtot 0
+; residue 773 SURF rtp SURF q  0.0
+   773         AU    773   SURF     Au    773          0    196.967   ; qtot 0
+; residue 774 SURF rtp SURF q  0.0
+   774         AU    774   SURF     Au    774          0    196.967   ; qtot 0
+; residue 775 SURF rtp SURF q  0.0
+   775         AU    775   SURF     Au    775          0    196.967   ; qtot 0
+; residue 776 SURF rtp SURF q  0.0
+   776         AU    776   SURF     Au    776          0    196.967   ; qtot 0
+; residue 777 SURF rtp SURF q  0.0
+   777         AU    777   SURF     Au    777          0    196.967   ; qtot 0
+; residue 778 SURF rtp SURF q  0.0
+   778         AU    778   SURF     Au    778          0    196.967   ; qtot 0
+; residue 779 SURF rtp SURF q  0.0
+   779         AU    779   SURF     Au    779          0    196.967   ; qtot 0
+; residue 780 SURF rtp SURF q  0.0
+   780         AU    780   SURF     Au    780          0    196.967   ; qtot 0
+; residue 781 SURF rtp SURF q  0.0
+   781         AU    781   SURF     Au    781          0    196.967   ; qtot 0
+; residue 782 SURF rtp SURF q  0.0
+   782         AU    782   SURF     Au    782          0    196.967   ; qtot 0
+; residue 783 SURF rtp SURF q  0.0
+   783         AU    783   SURF     Au    783          0    196.967   ; qtot 0
+; residue 784 SURF rtp SURF q  0.0
+   784         AU    784   SURF     Au    784          0    196.967   ; qtot 0
+; residue 785 SURF rtp SURF q  0.0
+   785         AU    785   SURF     Au    785          0    196.967   ; qtot 0
+; residue 786 SURF rtp SURF q  0.0
+   786         AU    786   SURF     Au    786          0    196.967   ; qtot 0
+; residue 787 SURF rtp SURF q  0.0
+   787         AU    787   SURF     Au    787          0    196.967   ; qtot 0
+; residue 788 SURF rtp SURF q  0.0
+   788         AU    788   SURF     Au    788          0    196.967   ; qtot 0
+; residue 789 SURF rtp SURF q  0.0
+   789         AU    789   SURF     Au    789          0    196.967   ; qtot 0
+; residue 790 SURF rtp SURF q  0.0
+   790         AU    790   SURF     Au    790          0    196.967   ; qtot 0
+; residue 791 SURF rtp SURF q  0.0
+   791         AU    791   SURF     Au    791          0    196.967   ; qtot 0
+; residue 792 SURF rtp SURF q  0.0
+   792         AU    792   SURF     Au    792          0    196.967   ; qtot 0
+; residue 793 SURF rtp SURF q  0.0
+   793         AU    793   SURF     Au    793          0    196.967   ; qtot 0
+; residue 794 SURF rtp SURF q  0.0
+   794         AU    794   SURF     Au    794          0    196.967   ; qtot 0
+; residue 795 SURF rtp SURF q  0.0
+   795         AU    795   SURF     Au    795          0    196.967   ; qtot 0
+; residue 796 SURF rtp SURF q  0.0
+   796         AU    796   SURF     Au    796          0    196.967   ; qtot 0
+; residue 797 SURF rtp SURF q  0.0
+   797         AU    797   SURF     Au    797          0    196.967   ; qtot 0
+; residue 798 SURF rtp SURF q  0.0
+   798         AU    798   SURF     Au    798          0    196.967   ; qtot 0
+; residue 799 SURF rtp SURF q  0.0
+   799         AU    799   SURF     Au    799          0    196.967   ; qtot 0
+; residue 800 SURF rtp SURF q  0.0
+   800         AU    800   SURF     Au    800          0    196.967   ; qtot 0
+; residue 801 SURF rtp SURF q  0.0
+   801         AU    801   SURF     Au    801          0    196.967   ; qtot 0
+; residue 802 SURF rtp SURF q  0.0
+   802         AU    802   SURF     Au    802          0    196.967   ; qtot 0
+; residue 803 SURF rtp SURF q  0.0
+   803         AU    803   SURF     Au    803          0    196.967   ; qtot 0
+; residue 804 SURF rtp SURF q  0.0
+   804         AU    804   SURF     Au    804          0    196.967   ; qtot 0
+; residue 805 SURF rtp SURF q  0.0
+   805         AU    805   SURF     Au    805          0    196.967   ; qtot 0
+; residue 806 SURF rtp SURF q  0.0
+   806         AU    806   SURF     Au    806          0    196.967   ; qtot 0
+; residue 807 SURF rtp SURF q  0.0
+   807         AU    807   SURF     Au    807          0    196.967   ; qtot 0
+; residue 808 SURF rtp SURF q  0.0
+   808         AU    808   SURF     Au    808          0    196.967   ; qtot 0
+; residue 809 SURF rtp SURF q  0.0
+   809         AU    809   SURF     Au    809          0    196.967   ; qtot 0
+; residue 810 SURF rtp SURF q  0.0
+   810         AU    810   SURF     Au    810          0    196.967   ; qtot 0
+; residue 811 SURF rtp SURF q  0.0
+   811         AU    811   SURF     Au    811          0    196.967   ; qtot 0
+; residue 812 SURF rtp SURF q  0.0
+   812         AU    812   SURF     Au    812          0    196.967   ; qtot 0
+; residue 813 SURF rtp SURF q  0.0
+   813         AU    813   SURF     Au    813          0    196.967   ; qtot 0
+; residue 814 SURF rtp SURF q  0.0
+   814         AU    814   SURF     Au    814          0    196.967   ; qtot 0
+; residue 815 SURF rtp SURF q  0.0
+   815         AU    815   SURF     Au    815          0    196.967   ; qtot 0
+; residue 816 SURF rtp SURF q  0.0
+   816         AU    816   SURF     Au    816          0    196.967   ; qtot 0
+; residue 817 SURF rtp SURF q  0.0
+   817         AU    817   SURF     Au    817          0    196.967   ; qtot 0
+; residue 818 SURF rtp SURF q  0.0
+   818         AU    818   SURF     Au    818          0    196.967   ; qtot 0
+; residue 819 SURF rtp SURF q  0.0
+   819         AU    819   SURF     Au    819          0    196.967   ; qtot 0
+; residue 820 SURF rtp SURF q  0.0
+   820         AU    820   SURF     Au    820          0    196.967   ; qtot 0
+; residue 821 SURF rtp SURF q  0.0
+   821         AU    821   SURF     Au    821          0    196.967   ; qtot 0
+; residue 822 SURF rtp SURF q  0.0
+   822         AU    822   SURF     Au    822          0    196.967   ; qtot 0
+; residue 823 SURF rtp SURF q  0.0
+   823         AU    823   SURF     Au    823          0    196.967   ; qtot 0
+; residue 824 SURF rtp SURF q  0.0
+   824         AU    824   SURF     Au    824          0    196.967   ; qtot 0
+; residue 825 SURF rtp SURF q  0.0
+   825         AU    825   SURF     Au    825          0    196.967   ; qtot 0
+; residue 826 SURF rtp SURF q  0.0
+   826         AU    826   SURF     Au    826          0    196.967   ; qtot 0
+; residue 827 SURF rtp SURF q  0.0
+   827         AU    827   SURF     Au    827          0    196.967   ; qtot 0
+; residue 828 SURF rtp SURF q  0.0
+   828         AU    828   SURF     Au    828          0    196.967   ; qtot 0
+; residue 829 SURF rtp SURF q  0.0
+   829         AU    829   SURF     Au    829          0    196.967   ; qtot 0
+; residue 830 SURF rtp SURF q  0.0
+   830         AU    830   SURF     Au    830          0    196.967   ; qtot 0
+; residue 831 SURF rtp SURF q  0.0
+   831         AU    831   SURF     Au    831          0    196.967   ; qtot 0
+; residue 832 SURF rtp SURF q  0.0
+   832         AU    832   SURF     Au    832          0    196.967   ; qtot 0
+; residue 833 SURF rtp SURF q  0.0
+   833         AU    833   SURF     Au    833          0    196.967   ; qtot 0
+; residue 834 SURF rtp SURF q  0.0
+   834         AU    834   SURF     Au    834          0    196.967   ; qtot 0
+; residue 835 SURF rtp SURF q  0.0
+   835         AU    835   SURF     Au    835          0    196.967   ; qtot 0
+; residue 836 SURF rtp SURF q  0.0
+   836         AU    836   SURF     Au    836          0    196.967   ; qtot 0
+; residue 837 SURF rtp SURF q  0.0
+   837         AU    837   SURF     Au    837          0    196.967   ; qtot 0
+; residue 838 SURF rtp SURF q  0.0
+   838         AU    838   SURF     Au    838          0    196.967   ; qtot 0
+; residue 839 SURF rtp SURF q  0.0
+   839         AU    839   SURF     Au    839          0    196.967   ; qtot 0
+; residue 840 SURF rtp SURF q  0.0
+   840         AU    840   SURF     Au    840          0    196.967   ; qtot 0
+; residue 841 SURF rtp SURF q  0.0
+   841         AU    841   SURF     Au    841          0    196.967   ; qtot 0
+; residue 842 SURF rtp SURF q  0.0
+   842         AU    842   SURF     Au    842          0    196.967   ; qtot 0
+; residue 843 SURF rtp SURF q  0.0
+   843         AU    843   SURF     Au    843          0    196.967   ; qtot 0
+; residue 844 SURF rtp SURF q  0.0
+   844         AU    844   SURF     Au    844          0    196.967   ; qtot 0
+; residue 845 SURF rtp SURF q  0.0
+   845         AU    845   SURF     Au    845          0    196.967   ; qtot 0
+; residue 846 SURF rtp SURF q  0.0
+   846         AU    846   SURF     Au    846          0    196.967   ; qtot 0
+; residue 847 SURF rtp SURF q  0.0
+   847         AU    847   SURF     Au    847          0    196.967   ; qtot 0
+; residue 848 SURF rtp SURF q  0.0
+   848         AU    848   SURF     Au    848          0    196.967   ; qtot 0
+; residue 849 SURF rtp SURF q  0.0
+   849         AU    849   SURF     Au    849          0    196.967   ; qtot 0
+; residue 850 SURF rtp SURF q  0.0
+   850         AU    850   SURF     Au    850          0    196.967   ; qtot 0
+; residue 851 SURF rtp SURF q  0.0
+   851         AU    851   SURF     Au    851          0    196.967   ; qtot 0
+; residue 852 SURF rtp SURF q  0.0
+   852         AU    852   SURF     Au    852          0    196.967   ; qtot 0
+; residue 853 SURF rtp SURF q  0.0
+   853         AU    853   SURF     Au    853          0    196.967   ; qtot 0
+; residue 854 SURF rtp SURF q  0.0
+   854         AU    854   SURF     Au    854          0    196.967   ; qtot 0
+; residue 855 SURF rtp SURF q  0.0
+   855         AU    855   SURF     Au    855          0    196.967   ; qtot 0
+; residue 856 SURF rtp SURF q  0.0
+   856         AU    856   SURF     Au    856          0    196.967   ; qtot 0
+; residue 857 SURF rtp SURF q  0.0
+   857         AU    857   SURF     Au    857          0    196.967   ; qtot 0
+; residue 858 SURF rtp SURF q  0.0
+   858         AU    858   SURF     Au    858          0    196.967   ; qtot 0
+; residue 859 SURF rtp SURF q  0.0
+   859         AU    859   SURF     Au    859          0    196.967   ; qtot 0
+; residue 860 SURF rtp SURF q  0.0
+   860         AU    860   SURF     Au    860          0    196.967   ; qtot 0
+; residue 861 SURF rtp SURF q  0.0
+   861         AU    861   SURF     Au    861          0    196.967   ; qtot 0
+; residue 862 SURF rtp SURF q  0.0
+   862         AU    862   SURF     Au    862          0    196.967   ; qtot 0
+; residue 863 SURF rtp SURF q  0.0
+   863         AU    863   SURF     Au    863          0    196.967   ; qtot 0
+; residue 864 SURF rtp SURF q  0.0
+   864         AU    864   SURF     Au    864          0    196.967   ; qtot 0
+; residue 865 SURF rtp SURF q  0.0
+   865         AU    865   SURF     Au    865          0    196.967   ; qtot 0
+; residue 866 SURF rtp SURF q  0.0
+   866         AU    866   SURF     Au    866          0    196.967   ; qtot 0
+; residue 867 SURF rtp SURF q  0.0
+   867         AU    867   SURF     Au    867          0    196.967   ; qtot 0
+; residue 868 SURF rtp SURF q  0.0
+   868         AU    868   SURF     Au    868          0    196.967   ; qtot 0
+; residue 869 SURF rtp SURF q  0.0
+   869         AU    869   SURF     Au    869          0    196.967   ; qtot 0
+; residue 870 SURF rtp SURF q  0.0
+   870         AU    870   SURF     Au    870          0    196.967   ; qtot 0
+; residue 871 SURF rtp SURF q  0.0
+   871         AU    871   SURF     Au    871          0    196.967   ; qtot 0
+; residue 872 SURF rtp SURF q  0.0
+   872         AU    872   SURF     Au    872          0    196.967   ; qtot 0
+; residue 873 SURF rtp SURF q  0.0
+   873         AU    873   SURF     Au    873          0    196.967   ; qtot 0
+; residue 874 SURF rtp SURF q  0.0
+   874         AU    874   SURF     Au    874          0    196.967   ; qtot 0
+; residue 875 SURF rtp SURF q  0.0
+   875         AU    875   SURF     Au    875          0    196.967   ; qtot 0
+; residue 876 SURF rtp SURF q  0.0
+   876         AU    876   SURF     Au    876          0    196.967   ; qtot 0
+; residue 877 SURF rtp SURF q  0.0
+   877         AU    877   SURF     Au    877          0    196.967   ; qtot 0
+; residue 878 SURF rtp SURF q  0.0
+   878         AU    878   SURF     Au    878          0    196.967   ; qtot 0
+; residue 879 SURF rtp SURF q  0.0
+   879         AU    879   SURF     Au    879          0    196.967   ; qtot 0
+; residue 880 SURF rtp SURF q  0.0
+   880         AU    880   SURF     Au    880          0    196.967   ; qtot 0
+; residue 881 SURF rtp SURF q  0.0
+   881         AU    881   SURF     Au    881          0    196.967   ; qtot 0
+; residue 882 SURF rtp SURF q  0.0
+   882         AU    882   SURF     Au    882          0    196.967   ; qtot 0
+; residue 883 SURF rtp SURF q  0.0
+   883         AU    883   SURF     Au    883          0    196.967   ; qtot 0
+; residue 884 SURF rtp SURF q  0.0
+   884         AU    884   SURF     Au    884          0    196.967   ; qtot 0
+; residue 885 SURF rtp SURF q  0.0
+   885         AU    885   SURF     Au    885          0    196.967   ; qtot 0
+; residue 886 SURF rtp SURF q  0.0
+   886         AU    886   SURF     Au    886          0    196.967   ; qtot 0
+; residue 887 SURF rtp SURF q  0.0
+   887         AU    887   SURF     Au    887          0    196.967   ; qtot 0
+; residue 888 SURF rtp SURF q  0.0
+   888         AU    888   SURF     Au    888          0    196.967   ; qtot 0
+; residue 889 SURF rtp SURF q  0.0
+   889         AU    889   SURF     Au    889          0    196.967   ; qtot 0
+; residue 890 SURF rtp SURF q  0.0
+   890         AU    890   SURF     Au    890          0    196.967   ; qtot 0
+; residue 891 SURF rtp SURF q  0.0
+   891         AU    891   SURF     Au    891          0    196.967   ; qtot 0
+; residue 892 SURF rtp SURF q  0.0
+   892         AU    892   SURF     Au    892          0    196.967   ; qtot 0
+; residue 893 SURF rtp SURF q  0.0
+   893         AU    893   SURF     Au    893          0    196.967   ; qtot 0
+; residue 894 SURF rtp SURF q  0.0
+   894         AU    894   SURF     Au    894          0    196.967   ; qtot 0
+; residue 895 SURF rtp SURF q  0.0
+   895         AU    895   SURF     Au    895          0    196.967   ; qtot 0
+; residue 896 SURF rtp SURF q  0.0
+   896         AU    896   SURF     Au    896          0    196.967   ; qtot 0
+; residue 897 SURF rtp SURF q  0.0
+   897         AU    897   SURF     Au    897          0    196.967   ; qtot 0
+; residue 898 SURF rtp SURF q  0.0
+   898         AU    898   SURF     Au    898          0    196.967   ; qtot 0
+; residue 899 SURF rtp SURF q  0.0
+   899         AU    899   SURF     Au    899          0    196.967   ; qtot 0
+; residue 900 SURF rtp SURF q  0.0
+   900         AU    900   SURF     Au    900          0    196.967   ; qtot 0
+; residue 901 SURF rtp SURF q  0.0
+   901         AU    901   SURF     Au    901          0    196.967   ; qtot 0
+; residue 902 SURF rtp SURF q  0.0
+   902         AU    902   SURF     Au    902          0    196.967   ; qtot 0
+; residue 903 SURF rtp SURF q  0.0
+   903         AU    903   SURF     Au    903          0    196.967   ; qtot 0
+; residue 904 SURF rtp SURF q  0.0
+   904         AU    904   SURF     Au    904          0    196.967   ; qtot 0
+; residue 905 SURF rtp SURF q  0.0
+   905         AU    905   SURF     Au    905          0    196.967   ; qtot 0
+; residue 906 SURF rtp SURF q  0.0
+   906         AU    906   SURF     Au    906          0    196.967   ; qtot 0
+; residue 907 SURF rtp SURF q  0.0
+   907         AU    907   SURF     Au    907          0    196.967   ; qtot 0
+; residue 908 SURF rtp SURF q  0.0
+   908         AU    908   SURF     Au    908          0    196.967   ; qtot 0
+; residue 909 SURF rtp SURF q  0.0
+   909         AU    909   SURF     Au    909          0    196.967   ; qtot 0
+; residue 910 SURF rtp SURF q  0.0
+   910         AU    910   SURF     Au    910          0    196.967   ; qtot 0
+; residue 911 SURF rtp SURF q  0.0
+   911         AU    911   SURF     Au    911          0    196.967   ; qtot 0
+; residue 912 SURF rtp SURF q  0.0
+   912         AU    912   SURF     Au    912          0    196.967   ; qtot 0
+; residue 913 SURF rtp SURF q  0.0
+   913         AU    913   SURF     Au    913          0    196.967   ; qtot 0
+; residue 914 SURF rtp SURF q  0.0
+   914         AU    914   SURF     Au    914          0    196.967   ; qtot 0
+; residue 915 SURF rtp SURF q  0.0
+   915         AU    915   SURF     Au    915          0    196.967   ; qtot 0
+; residue 916 SURF rtp SURF q  0.0
+   916         AU    916   SURF     Au    916          0    196.967   ; qtot 0
+; residue 917 SURF rtp SURF q  0.0
+   917         AU    917   SURF     Au    917          0    196.967   ; qtot 0
+; residue 918 SURF rtp SURF q  0.0
+   918         AU    918   SURF     Au    918          0    196.967   ; qtot 0
+; residue 919 SURF rtp SURF q  0.0
+   919         AU    919   SURF     Au    919          0    196.967   ; qtot 0
+; residue 920 SURF rtp SURF q  0.0
+   920         AU    920   SURF     Au    920          0    196.967   ; qtot 0
+; residue 921 SURF rtp SURF q  0.0
+   921         AU    921   SURF     Au    921          0    196.967   ; qtot 0
+; residue 922 SURF rtp SURF q  0.0
+   922         AU    922   SURF     Au    922          0    196.967   ; qtot 0
+; residue 923 SURF rtp SURF q  0.0
+   923         AU    923   SURF     Au    923          0    196.967   ; qtot 0
+; residue 924 SURF rtp SURF q  0.0
+   924         AU    924   SURF     Au    924          0    196.967   ; qtot 0
+; residue 925 SURF rtp SURF q  0.0
+   925         AU    925   SURF     Au    925          0    196.967   ; qtot 0
+; residue 926 SURF rtp SURF q  0.0
+   926         AU    926   SURF     Au    926          0    196.967   ; qtot 0
+; residue 927 SURF rtp SURF q  0.0
+   927         AU    927   SURF     Au    927          0    196.967   ; qtot 0
+; residue 928 SURF rtp SURF q  0.0
+   928         AU    928   SURF     Au    928          0    196.967   ; qtot 0
+; residue 929 SURF rtp SURF q  0.0
+   929         AU    929   SURF     Au    929          0    196.967   ; qtot 0
+; residue 930 SURF rtp SURF q  0.0
+   930         AU    930   SURF     Au    930          0    196.967   ; qtot 0
+; residue 931 SURF rtp SURF q  0.0
+   931         AU    931   SURF     Au    931          0    196.967   ; qtot 0
+; residue 932 SURF rtp SURF q  0.0
+   932         AU    932   SURF     Au    932          0    196.967   ; qtot 0
+; residue 933 SURF rtp SURF q  0.0
+   933         AU    933   SURF     Au    933          0    196.967   ; qtot 0
+; residue 934 SURF rtp SURF q  0.0
+   934         AU    934   SURF     Au    934          0    196.967   ; qtot 0
+; residue 935 SURF rtp SURF q  0.0
+   935         AU    935   SURF     Au    935          0    196.967   ; qtot 0
+; residue 936 SURF rtp SURF q  0.0
+   936         AU    936   SURF     Au    936          0    196.967   ; qtot 0
+; residue 937 SURF rtp SURF q  0.0
+   937         AU    937   SURF     Au    937          0    196.967   ; qtot 0
+; residue 938 SURF rtp SURF q  0.0
+   938         AU    938   SURF     Au    938          0    196.967   ; qtot 0
+; residue 939 SURF rtp SURF q  0.0
+   939         AU    939   SURF     Au    939          0    196.967   ; qtot 0
+; residue 940 SURF rtp SURF q  0.0
+   940         AU    940   SURF     Au    940          0    196.967   ; qtot 0
+; residue 941 SURF rtp SURF q  0.0
+   941         AU    941   SURF     Au    941          0    196.967   ; qtot 0
+; residue 942 SURF rtp SURF q  0.0
+   942         AU    942   SURF     Au    942          0    196.967   ; qtot 0
+; residue 943 SURF rtp SURF q  0.0
+   943         AU    943   SURF     Au    943          0    196.967   ; qtot 0
+; residue 944 SURF rtp SURF q  0.0
+   944         AU    944   SURF     Au    944          0    196.967   ; qtot 0
+; residue 945 SURF rtp SURF q  0.0
+   945         AU    945   SURF     Au    945          0    196.967   ; qtot 0
+; residue 946 SURF rtp SURF q  0.0
+   946         AU    946   SURF     Au    946          0    196.967   ; qtot 0
+; residue 947 SURF rtp SURF q  0.0
+   947         AU    947   SURF     Au    947          0    196.967   ; qtot 0
+; residue 948 SURF rtp SURF q  0.0
+   948         AU    948   SURF     Au    948          0    196.967   ; qtot 0
+; residue 949 SURF rtp SURF q  0.0
+   949         AU    949   SURF     Au    949          0    196.967   ; qtot 0
+; residue 950 SURF rtp SURF q  0.0
+   950         AU    950   SURF     Au    950          0    196.967   ; qtot 0
+; residue 951 SURF rtp SURF q  0.0
+   951         AU    951   SURF     Au    951          0    196.967   ; qtot 0
+; residue 952 SURF rtp SURF q  0.0
+   952         AU    952   SURF     Au    952          0    196.967   ; qtot 0
+; residue 953 SURF rtp SURF q  0.0
+   953         AU    953   SURF     Au    953          0    196.967   ; qtot 0
+; residue 954 SURF rtp SURF q  0.0
+   954         AU    954   SURF     Au    954          0    196.967   ; qtot 0
+; residue 955 SURF rtp SURF q  0.0
+   955         AU    955   SURF     Au    955          0    196.967   ; qtot 0
+; residue 956 SURF rtp SURF q  0.0
+   956         AU    956   SURF     Au    956          0    196.967   ; qtot 0
+; residue 957 SURF rtp SURF q  0.0
+   957         AU    957   SURF     Au    957          0    196.967   ; qtot 0
+; residue 958 SURF rtp SURF q  0.0
+   958         AU    958   SURF     Au    958          0    196.967   ; qtot 0
+; residue 959 SURF rtp SURF q  0.0
+   959         AU    959   SURF     Au    959          0    196.967   ; qtot 0
+; residue 960 SURF rtp SURF q  0.0
+   960         AU    960   SURF     Au    960          0    196.967   ; qtot 0
+; residue 961 SURF rtp SURF q  0.0
+   961         AU    961   SURF     Au    961          0    196.967   ; qtot 0
+; residue 962 SURF rtp SURF q  0.0
+   962         AU    962   SURF     Au    962          0    196.967   ; qtot 0
+; residue 963 SURF rtp SURF q  0.0
+   963         AU    963   SURF     Au    963          0    196.967   ; qtot 0
+; residue 964 SURF rtp SURF q  0.0
+   964         AU    964   SURF     Au    964          0    196.967   ; qtot 0
+; residue 965 SURF rtp SURF q  0.0
+   965         AU    965   SURF     Au    965          0    196.967   ; qtot 0
+; residue 966 SURF rtp SURF q  0.0
+   966         AU    966   SURF     Au    966          0    196.967   ; qtot 0
+; residue 967 SURF rtp SURF q  0.0
+   967         AU    967   SURF     Au    967          0    196.967   ; qtot 0
+; residue 968 SURF rtp SURF q  0.0
+   968         AU    968   SURF     Au    968          0    196.967   ; qtot 0
+; residue 969 SURF rtp SURF q  0.0
+   969         AU    969   SURF     Au    969          0    196.967   ; qtot 0
+; residue 970 SURF rtp SURF q  0.0
+   970         AU    970   SURF     Au    970          0    196.967   ; qtot 0
+; residue 971 SURF rtp SURF q  0.0
+   971         AU    971   SURF     Au    971          0    196.967   ; qtot 0
+; residue 972 SURF rtp SURF q  0.0
+   972         AU    972   SURF     Au    972          0    196.967   ; qtot 0
+; residue 973 SURF rtp SURF q  0.0
+   973         AU    973   SURF     Au    973          0    196.967   ; qtot 0
+; residue 974 SURF rtp SURF q  0.0
+   974         AU    974   SURF     Au    974          0    196.967   ; qtot 0
+; residue 975 SURF rtp SURF q  0.0
+   975         AU    975   SURF     Au    975          0    196.967   ; qtot 0
+; residue 976 SURF rtp SURF q  0.0
+   976         AU    976   SURF     Au    976          0    196.967   ; qtot 0
+; residue 977 SURF rtp SURF q  0.0
+   977         AU    977   SURF     Au    977          0    196.967   ; qtot 0
+; residue 978 SURF rtp SURF q  0.0
+   978         AU    978   SURF     Au    978          0    196.967   ; qtot 0
+; residue 979 SURF rtp SURF q  0.0
+   979         AU    979   SURF     Au    979          0    196.967   ; qtot 0
+; residue 980 SURF rtp SURF q  0.0
+   980         AU    980   SURF     Au    980          0    196.967   ; qtot 0
+; residue 981 SURF rtp SURF q  0.0
+   981         AU    981   SURF     Au    981          0    196.967   ; qtot 0
+; residue 982 SURF rtp SURF q  0.0
+   982         AU    982   SURF     Au    982          0    196.967   ; qtot 0
+; residue 983 SURF rtp SURF q  0.0
+   983         AU    983   SURF     Au    983          0    196.967   ; qtot 0
+; residue 984 SURF rtp SURF q  0.0
+   984         AU    984   SURF     Au    984          0    196.967   ; qtot 0
+; residue 985 SURF rtp SURF q  0.0
+   985         AU    985   SURF     Au    985          0    196.967   ; qtot 0
+; residue 986 SURF rtp SURF q  0.0
+   986         AU    986   SURF     Au    986          0    196.967   ; qtot 0
+; residue 987 SURF rtp SURF q  0.0
+   987         AU    987   SURF     Au    987          0    196.967   ; qtot 0
+; residue 988 SURF rtp SURF q  0.0
+   988         AU    988   SURF     Au    988          0    196.967   ; qtot 0
+; residue 989 SURF rtp SURF q  0.0
+   989         AU    989   SURF     Au    989          0    196.967   ; qtot 0
+; residue 990 SURF rtp SURF q  0.0
+   990         AU    990   SURF     Au    990          0    196.967   ; qtot 0
+; residue 991 SURF rtp SURF q  0.0
+   991         AU    991   SURF     Au    991          0    196.967   ; qtot 0
+; residue 992 SURF rtp SURF q  0.0
+   992         AU    992   SURF     Au    992          0    196.967   ; qtot 0
+; residue 993 SURF rtp SURF q  0.0
+   993         AU    993   SURF     Au    993          0    196.967   ; qtot 0
+; residue 994 SURF rtp SURF q  0.0
+   994         AU    994   SURF     Au    994          0    196.967   ; qtot 0
+; residue 995 SURF rtp SURF q  0.0
+   995         AU    995   SURF     Au    995          0    196.967   ; qtot 0
+; residue 996 SURF rtp SURF q  0.0
+   996         AU    996   SURF     Au    996          0    196.967   ; qtot 0
+; residue 997 SURF rtp SURF q  0.0
+   997         AU    997   SURF     Au    997          0    196.967   ; qtot 0
+; residue 998 SURF rtp SURF q  0.0
+   998         AU    998   SURF     Au    998          0    196.967   ; qtot 0
+; residue 999 SURF rtp SURF q  0.0
+   999         AU    999   SURF     Au    999          0    196.967   ; qtot 0
+; residue 1000 SURF rtp SURF q  0.0
+  1000         AU   1000   SURF     Au   1000          0    196.967   ; qtot 0
+; residue 1001 SURF rtp SURF q  0.0
+  1001         AU   1001   SURF     Au   1001          0    196.967   ; qtot 0
+; residue 1002 SURF rtp SURF q  0.0
+  1002         AU   1002   SURF     Au   1002          0    196.967   ; qtot 0
+; residue 1003 SURF rtp SURF q  0.0
+  1003         AU   1003   SURF     Au   1003          0    196.967   ; qtot 0
+; residue 1004 SURF rtp SURF q  0.0
+  1004         AU   1004   SURF     Au   1004          0    196.967   ; qtot 0
+; residue 1005 SURF rtp SURF q  0.0
+  1005         AU   1005   SURF     Au   1005          0    196.967   ; qtot 0
+; residue 1006 SURF rtp SURF q  0.0
+  1006         AU   1006   SURF     Au   1006          0    196.967   ; qtot 0
+; residue 1007 SURF rtp SURF q  0.0
+  1007         AU   1007   SURF     Au   1007          0    196.967   ; qtot 0
+; residue 1008 SURF rtp SURF q  0.0
+  1008         AU   1008   SURF     Au   1008          0    196.967   ; qtot 0
+; residue 1009 SDS rtp SDS  q -1.0
+  1009         SL   1009    SDS      S   1009       1.33      32.06   ; qtot 1.33
+  1010        OSL   1009    SDS    OS1   1010      -0.28    15.9994   ; qtot 1.05
+  1011        O2L   1009    SDS    OS2   1011      -0.65    15.9994   ; qtot 0.4
+  1012        O2L   1009    SDS    OS3   1012      -0.65    15.9994   ; qtot -0.25
+  1013        O2L   1009    SDS    OS4   1013      -0.65    15.9994   ; qtot -0.9
+  1014       CTL2   1009    SDS     C1   1014      -0.28     12.011   ; qtot -1.18
+  1015       HAL2   1009    SDS    H11   1015       0.09      1.008   ; qtot -1.09
+  1016       HAL2   1009    SDS    H12   1016       0.09      1.008   ; qtot -1
+  1017       CTL2   1009    SDS     C2   1017      -0.18     12.011   ; qtot -1.18
+  1018       HAL2   1009    SDS    H21   1018       0.09      1.008   ; qtot -1.09
+  1019       HAL2   1009    SDS    H22   1019       0.09      1.008   ; qtot -1
+  1020       CTL2   1009    SDS     C3   1020      -0.18     12.011   ; qtot -1.18
+  1021       HAL2   1009    SDS    H31   1021       0.09      1.008   ; qtot -1.09
+  1022       HAL2   1009    SDS    H32   1022       0.09      1.008   ; qtot -1
+  1023       CTL2   1009    SDS     C4   1023      -0.18     12.011   ; qtot -1.18
+  1024       HAL2   1009    SDS    H41   1024       0.09      1.008   ; qtot -1.09
+  1025       HAL2   1009    SDS    H42   1025       0.09      1.008   ; qtot -1
+  1026       CTL2   1009    SDS     C5   1026      -0.18     12.011   ; qtot -1.18
+  1027       HAL2   1009    SDS    H51   1027       0.09      1.008   ; qtot -1.09
+  1028       HAL2   1009    SDS    H52   1028       0.09      1.008   ; qtot -1
+  1029       CTL2   1009    SDS     C6   1029      -0.18     12.011   ; qtot -1.18
+  1030       HAL2   1009    SDS    H61   1030       0.09      1.008   ; qtot -1.09
+  1031       HAL2   1009    SDS    H62   1031       0.09      1.008   ; qtot -1
+  1032       CTL2   1009    SDS     C7   1032      -0.18     12.011   ; qtot -1.18
+  1033       HAL2   1009    SDS    H71   1033       0.09      1.008   ; qtot -1.09
+  1034       HAL2   1009    SDS    H72   1034       0.09      1.008   ; qtot -1
+  1035       CTL2   1009    SDS     C8   1035      -0.18     12.011   ; qtot -1.18
+  1036       HAL2   1009    SDS    H81   1036       0.09      1.008   ; qtot -1.09
+  1037       HAL2   1009    SDS    H82   1037       0.09      1.008   ; qtot -1
+  1038       CTL2   1009    SDS     C9   1038      -0.18     12.011   ; qtot -1.18
+  1039       HAL2   1009    SDS    H91   1039       0.09      1.008   ; qtot -1.09
+  1040       HAL2   1009    SDS    H92   1040       0.09      1.008   ; qtot -1
+  1041       CTL2   1009    SDS    C10   1041      -0.18     12.011   ; qtot -1.18
+  1042       HAL2   1009    SDS   H101   1042       0.09      1.008   ; qtot -1.09
+  1043       HAL2   1009    SDS   H102   1043       0.09      1.008   ; qtot -1
+  1044       CTL2   1009    SDS    C11   1044      -0.18     12.011   ; qtot -1.18
+  1045       HAL2   1009    SDS   H111   1045       0.09      1.008   ; qtot -1.09
+  1046       HAL2   1009    SDS   H112   1046       0.09      1.008   ; qtot -1
+  1047       CTL3   1009    SDS    C12   1047      -0.27     12.011   ; qtot -1.27
+  1048       HAL3   1009    SDS   H121   1048       0.09      1.008   ; qtot -1.18
+  1049       HAL3   1009    SDS   H122   1049       0.09      1.008   ; qtot -1.09
+  1050       HAL3   1009    SDS   H123   1050       0.09      1.008   ; qtot -1
+; residue 1010 NA  rtp NA   q +1.0
+  1051        SOD   1010     NA     NA   1051          1    22.9898   ; qtot 0
+
+[ bonds ]
+;  ai    aj funct            c0            c1            c2            c3
+ 1009  1010     1 
+ 1009  1011     1 
+ 1009  1012     1 
+ 1009  1013     1 
+ 1010  1014     1 
+ 1014  1015     1 
+ 1014  1016     1 
+ 1014  1017     1 
+ 1017  1018     1 
+ 1017  1019     1 
+ 1017  1020     1 
+ 1020  1021     1 
+ 1020  1022     1 
+ 1020  1023     1 
+ 1023  1024     1 
+ 1023  1025     1 
+ 1023  1026     1 
+ 1026  1027     1 
+ 1026  1028     1 
+ 1026  1029     1 
+ 1029  1030     1 
+ 1029  1031     1 
+ 1029  1032     1 
+ 1032  1033     1 
+ 1032  1034     1 
+ 1032  1035     1 
+ 1035  1036     1 
+ 1035  1037     1 
+ 1035  1038     1 
+ 1038  1039     1 
+ 1038  1040     1 
+ 1038  1041     1 
+ 1041  1042     1 
+ 1041  1043     1 
+ 1041  1044     1 
+ 1044  1045     1 
+ 1044  1046     1 
+ 1044  1047     1 
+ 1047  1048     1 
+ 1047  1049     1 
+ 1047  1050     1 
+
+[ pairs ]
+;  ai    aj funct            c0            c1            c2            c3
+ 1009  1015     1 
+ 1009  1016     1 
+ 1009  1017     1 
+ 1010  1018     1 
+ 1010  1019     1 
+ 1010  1020     1 
+ 1011  1014     1 
+ 1012  1014     1 
+ 1013  1014     1 
+ 1014  1021     1 
+ 1014  1022     1 
+ 1014  1023     1 
+ 1015  1018     1 
+ 1015  1019     1 
+ 1015  1020     1 
+ 1016  1018     1 
+ 1016  1019     1 
+ 1016  1020     1 
+ 1017  1024     1 
+ 1017  1025     1 
+ 1017  1026     1 
+ 1018  1021     1 
+ 1018  1022     1 
+ 1018  1023     1 
+ 1019  1021     1 
+ 1019  1022     1 
+ 1019  1023     1 
+ 1020  1027     1 
+ 1020  1028     1 
+ 1020  1029     1 
+ 1021  1024     1 
+ 1021  1025     1 
+ 1021  1026     1 
+ 1022  1024     1 
+ 1022  1025     1 
+ 1022  1026     1 
+ 1023  1030     1 
+ 1023  1031     1 
+ 1023  1032     1 
+ 1024  1027     1 
+ 1024  1028     1 
+ 1024  1029     1 
+ 1025  1027     1 
+ 1025  1028     1 
+ 1025  1029     1 
+ 1026  1033     1 
+ 1026  1034     1 
+ 1026  1035     1 
+ 1027  1030     1 
+ 1027  1031     1 
+ 1027  1032     1 
+ 1028  1030     1 
+ 1028  1031     1 
+ 1028  1032     1 
+ 1029  1036     1 
+ 1029  1037     1 
+ 1029  1038     1 
+ 1030  1033     1 
+ 1030  1034     1 
+ 1030  1035     1 
+ 1031  1033     1 
+ 1031  1034     1 
+ 1031  1035     1 
+ 1032  1039     1 
+ 1032  1040     1 
+ 1032  1041     1 
+ 1033  1036     1 
+ 1033  1037     1 
+ 1033  1038     1 
+ 1034  1036     1 
+ 1034  1037     1 
+ 1034  1038     1 
+ 1035  1042     1 
+ 1035  1043     1 
+ 1035  1044     1 
+ 1036  1039     1 
+ 1036  1040     1 
+ 1036  1041     1 
+ 1037  1039     1 
+ 1037  1040     1 
+ 1037  1041     1 
+ 1038  1045     1 
+ 1038  1046     1 
+ 1038  1047     1 
+ 1039  1042     1 
+ 1039  1043     1 
+ 1039  1044     1 
+ 1040  1042     1 
+ 1040  1043     1 
+ 1040  1044     1 
+ 1041  1048     1 
+ 1041  1049     1 
+ 1041  1050     1 
+ 1042  1045     1 
+ 1042  1046     1 
+ 1042  1047     1 
+ 1043  1045     1 
+ 1043  1046     1 
+ 1043  1047     1 
+ 1045  1048     1 
+ 1045  1049     1 
+ 1045  1050     1 
+ 1046  1048     1 
+ 1046  1049     1 
+ 1046  1050     1 
+
+[ angles ]
+;  ai    aj    ak funct            c0            c1            c2            c3
+ 1010  1009  1011     5 
+ 1010  1009  1012     5 
+ 1010  1009  1013     5 
+ 1011  1009  1012     5 
+ 1011  1009  1013     5 
+ 1012  1009  1013     5 
+ 1009  1010  1014     5 
+ 1010  1014  1015     5 
+ 1010  1014  1016     5 
+ 1010  1014  1017     5 
+ 1015  1014  1016     5 
+ 1015  1014  1017     5 
+ 1016  1014  1017     5 
+ 1014  1017  1018     5 
+ 1014  1017  1019     5 
+ 1014  1017  1020     5 
+ 1018  1017  1019     5 
+ 1018  1017  1020     5 
+ 1019  1017  1020     5 
+ 1017  1020  1021     5 
+ 1017  1020  1022     5 
+ 1017  1020  1023     5 
+ 1021  1020  1022     5 
+ 1021  1020  1023     5 
+ 1022  1020  1023     5 
+ 1020  1023  1024     5 
+ 1020  1023  1025     5 
+ 1020  1023  1026     5 
+ 1024  1023  1025     5 
+ 1024  1023  1026     5 
+ 1025  1023  1026     5 
+ 1023  1026  1027     5 
+ 1023  1026  1028     5 
+ 1023  1026  1029     5 
+ 1027  1026  1028     5 
+ 1027  1026  1029     5 
+ 1028  1026  1029     5 
+ 1026  1029  1030     5 
+ 1026  1029  1031     5 
+ 1026  1029  1032     5 
+ 1030  1029  1031     5 
+ 1030  1029  1032     5 
+ 1031  1029  1032     5 
+ 1029  1032  1033     5 
+ 1029  1032  1034     5 
+ 1029  1032  1035     5 
+ 1033  1032  1034     5 
+ 1033  1032  1035     5 
+ 1034  1032  1035     5 
+ 1032  1035  1036     5 
+ 1032  1035  1037     5 
+ 1032  1035  1038     5 
+ 1036  1035  1037     5 
+ 1036  1035  1038     5 
+ 1037  1035  1038     5 
+ 1035  1038  1039     5 
+ 1035  1038  1040     5 
+ 1035  1038  1041     5 
+ 1039  1038  1040     5 
+ 1039  1038  1041     5 
+ 1040  1038  1041     5 
+ 1038  1041  1042     5 
+ 1038  1041  1043     5 
+ 1038  1041  1044     5 
+ 1042  1041  1043     5 
+ 1042  1041  1044     5 
+ 1043  1041  1044     5 
+ 1041  1044  1045     5 
+ 1041  1044  1046     5 
+ 1041  1044  1047     5 
+ 1045  1044  1046     5 
+ 1045  1044  1047     5 
+ 1046  1044  1047     5 
+ 1044  1047  1048     5 
+ 1044  1047  1049     5 
+ 1044  1047  1050     5 
+ 1048  1047  1049     5 
+ 1048  1047  1050     5 
+ 1049  1047  1050     5 
+
+[ dihedrals ]
+;  ai    aj    ak    al funct            c0            c1            c2            c3            c4            c5
+ 1011  1009  1010  1014     9 
+ 1012  1009  1010  1014     9 
+ 1013  1009  1010  1014     9 
+ 1009  1010  1014  1015     9 
+ 1009  1010  1014  1016     9 
+ 1009  1010  1014  1017     9 
+ 1010  1014  1017  1018     9 
+ 1010  1014  1017  1019     9 
+ 1010  1014  1017  1020     9 
+ 1015  1014  1017  1018     9 
+ 1015  1014  1017  1019     9 
+ 1015  1014  1017  1020     9 
+ 1016  1014  1017  1018     9 
+ 1016  1014  1017  1019     9 
+ 1016  1014  1017  1020     9 
+ 1014  1017  1020  1021     9 
+ 1014  1017  1020  1022     9 
+ 1014  1017  1020  1023     9 
+ 1018  1017  1020  1021     9 
+ 1018  1017  1020  1022     9 
+ 1018  1017  1020  1023     9 
+ 1019  1017  1020  1021     9 
+ 1019  1017  1020  1022     9 
+ 1019  1017  1020  1023     9 
+ 1017  1020  1023  1024     9 
+ 1017  1020  1023  1025     9 
+ 1017  1020  1023  1026     9 
+ 1021  1020  1023  1024     9 
+ 1021  1020  1023  1025     9 
+ 1021  1020  1023  1026     9 
+ 1022  1020  1023  1024     9 
+ 1022  1020  1023  1025     9 
+ 1022  1020  1023  1026     9 
+ 1020  1023  1026  1027     9 
+ 1020  1023  1026  1028     9 
+ 1020  1023  1026  1029     9 
+ 1024  1023  1026  1027     9 
+ 1024  1023  1026  1028     9 
+ 1024  1023  1026  1029     9 
+ 1025  1023  1026  1027     9 
+ 1025  1023  1026  1028     9 
+ 1025  1023  1026  1029     9 
+ 1023  1026  1029  1030     9 
+ 1023  1026  1029  1031     9 
+ 1023  1026  1029  1032     9 
+ 1027  1026  1029  1030     9 
+ 1027  1026  1029  1031     9 
+ 1027  1026  1029  1032     9 
+ 1028  1026  1029  1030     9 
+ 1028  1026  1029  1031     9 
+ 1028  1026  1029  1032     9 
+ 1026  1029  1032  1033     9 
+ 1026  1029  1032  1034     9 
+ 1026  1029  1032  1035     9 
+ 1030  1029  1032  1033     9 
+ 1030  1029  1032  1034     9 
+ 1030  1029  1032  1035     9 
+ 1031  1029  1032  1033     9 
+ 1031  1029  1032  1034     9 
+ 1031  1029  1032  1035     9 
+ 1029  1032  1035  1036     9 
+ 1029  1032  1035  1037     9 
+ 1029  1032  1035  1038     9 
+ 1033  1032  1035  1036     9 
+ 1033  1032  1035  1037     9 
+ 1033  1032  1035  1038     9 
+ 1034  1032  1035  1036     9 
+ 1034  1032  1035  1037     9 
+ 1034  1032  1035  1038     9 
+ 1032  1035  1038  1039     9 
+ 1032  1035  1038  1040     9 
+ 1032  1035  1038  1041     9 
+ 1036  1035  1038  1039     9 
+ 1036  1035  1038  1040     9 
+ 1036  1035  1038  1041     9 
+ 1037  1035  1038  1039     9 
+ 1037  1035  1038  1040     9 
+ 1037  1035  1038  1041     9 
+ 1035  1038  1041  1042     9 
+ 1035  1038  1041  1043     9 
+ 1035  1038  1041  1044     9 
+ 1039  1038  1041  1042     9 
+ 1039  1038  1041  1043     9 
+ 1039  1038  1041  1044     9 
+ 1040  1038  1041  1042     9 
+ 1040  1038  1041  1043     9 
+ 1040  1038  1041  1044     9 
+ 1038  1041  1044  1045     9 
+ 1038  1041  1044  1046     9 
+ 1038  1041  1044  1047     9 
+ 1042  1041  1044  1045     9 
+ 1042  1041  1044  1046     9 
+ 1042  1041  1044  1047     9 
+ 1043  1041  1044  1045     9 
+ 1043  1041  1044  1046     9 
+ 1043  1041  1044  1047     9 
+ 1041  1044  1047  1048     9 
+ 1041  1044  1047  1049     9 
+ 1041  1044  1047  1050     9 
+ 1045  1044  1047  1048     9 
+ 1045  1044  1047  1049     9 
+ 1045  1044  1047  1050     9 
+ 1046  1044  1047  1048     9 
+ 1046  1044  1047  1049     9 
+ 1046  1044  1047  1050     9 
+
+; Include Position restraint file
+#ifdef POSRES
+#include "1_SDS_on_AU_111_12x7x2.posre.itp"
+#endif
+
+; Include water topology
+#include "charmm36.ff/tip3p.itp"
+
+#ifdef POSRES_WATER
+; Position restraint for each water oxygen
+[ position_restraints ]
+;  i funct       fcx        fcy        fcz
+   1    1       1000       1000       1000
+#endif
+
+; Include topology for ions
+#include "charmm36.ff/ions.itp"
+
+[ system ]
+; Name
+Built with Packmol in water
+
+[ molecules ]
+; Compound        #mols
+Surface             1
+SOL              1715

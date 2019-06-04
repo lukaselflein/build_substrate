@@ -1,0 +1,7 @@
+HEADER 
+TITLE     Built with Packmol                                             
+REMARK   Packmol generated pdb file 
+REMARK   Home-Page: http://www.ime.unicamp.br/~martinez/packmol
+REMARK
+ATOM      1   Au SURF    1       1.441   0.832 -14.116  1.00  0.00          AU  
+END
